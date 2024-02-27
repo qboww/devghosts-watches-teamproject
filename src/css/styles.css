@@ -1,5 +1,4 @@
 @import url('./reset.css');
-@import url('./header.css');
 
 :root {
   --main: #0c0c0c;
@@ -10,4 +9,10 @@
 
 :root {
   --font-family: "Gilroy", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
