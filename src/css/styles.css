@@ -1,15 +1,14 @@
 @import url('./reset.css');
 @import url('./catalog.css');
 @import url('./about.css');
-<<<<<<< Updated upstream
 @import url('./hero.css');
-=======
 @import url('./contact-us.css');
 @import url('./reviews.css');
->>>>>>> Stashed changes
+@import url('./header.css');
 
 *,
-*::before *::after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -27,7 +26,6 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .hide {

@@ -1,11 +1,10 @@
 /* -------------Scroll anchor-------*/
 @media (prefers-reduced-motion: no-preference) {
-    :root {
-        scroll-behavior: smooth;
-    }
+  :root {
+    scroll-behavior: smooth;
+  }
 }
 /* -------------/Scroll anchor-------*/
-
 
 .hero {
   padding-top: 60px;
@@ -13,6 +12,10 @@
 }
 .container {
   max-width: 375px;
+  padding: 0 20px;
+}
+.hero__description {
+  margin-bottom: 28px;
 }
 .hero__title {
   margin-bottom: 20px;
@@ -27,7 +30,6 @@
 }
 .hero__text {
   max-width: 333px;
-  margin-bottom: 28px;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -35,7 +37,7 @@
   color: rgba(12, 12, 12, 0.7);
 }
 .hero__inner-block {
-  margin-bottom: 28px;  
+  margin-bottom: 28px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -44,20 +46,25 @@
   display: flex;
 }
 .hero__people-item {
+  display: flex;
+  align-items: center;
 }
 .hero__people-item:not(:first-child) {
-    margin-left: -12px;
+  margin-left: -12px;
 }
 .hero__people-img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-.hero__scroll {
+.hero__scroll-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 100%;
   letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: var(--main);
+  color: inherit;
   transition: color 250ms ease-in;
 }
 .hero__scroll:hover,
@@ -65,10 +72,63 @@
   color: var(--accent);
 }
 .hero__background {
-    border-radius: 30px;
-    overflow: hidden;
+  border-radius: 30px;
+  overflow: hidden;
 }
 .hero__background-img {
-    object-fit: cover;
-    object-position: center;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .hero {
+    padding-top: 80px;
+  }
+  .hero__wrap-text {
+    display: flex;
+  }
+  .hero__description {
+    margin-bottom: 40px;
+  }
+  .hero__inner-block {
+    max-width: 136px;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+  .hero__title {
+    font-size: 70px;
+    line-height: 86%;
+  }
+  .hero__text {
+    max-width: 480px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .hero__background-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+  .hero__wrap-text {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero__description {
+    max-width: 597px;
+  }
+  .hero__title {
+    font-size: 72px;
+    line-height: 87%;
+  }
 }
