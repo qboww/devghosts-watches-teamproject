@@ -5,7 +5,7 @@
 @import url('./hero.css');
 
 *,
-*::before *::after {
+*::before, *::after {
   box-sizing: border-box;
 }
 
