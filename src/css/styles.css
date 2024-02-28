@@ -1,6 +1,8 @@
 @import url('./reset.css');
+@import url('./catalog.css');
 @import url('./about.css');
 @import url('./contact-us.css');
+@import url('./hero.css');
 
 *,
 *::before *::after {
@@ -15,7 +17,7 @@
 }
 
 :root {
-  --font-family: "Gilroy", sans-serif;
+  --font-family: 'Gilroy', sans-serif;
 }
 
 .container {
