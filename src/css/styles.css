@@ -1,6 +1,7 @@
 @import url('./reset.css');
 @import url('./catalog.css');
 @import url('./about.css');
+@import url('./contact-us.css');
 @import url('./hero.css');
 
 *,
@@ -22,7 +23,6 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .hide {
