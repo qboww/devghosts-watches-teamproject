@@ -20,6 +20,11 @@
   --font-family: 'Gilroy', sans-serif;
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .hide {
   display: none;
 }
