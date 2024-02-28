@@ -1,27 +1,74 @@
+/* -------------Scroll anchor-------*/
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+/* -------------/Scroll anchor-------*/
+
+
 .hero {
+  padding-top: 60px;
+  font-family: var(--font-family);
 }
 .container {
+  max-width: 375px;
 }
 .hero__title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95%;
+  letter-spacing: -0.02em;
+  color: var(--main);
 }
 .hero__title-span {
+  color: var(--accent);
 }
 .hero__text {
+  max-width: 333px;
+  margin-bottom: 28px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 .hero__inner-block {
+  margin-bottom: 28px;  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 .hero__people-list {
+  display: flex;
 }
 .hero__people-item {
+}
+.hero__people-item:not(:first-child) {
+    margin-left: -12px;
 }
 .hero__people-img {
 }
 .hero__scroll {
-    
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--main);
+  transition: color 250ms ease-in;
+}
+.hero__scroll:hover,
+.hero__scroll:active {
+  color: var(--accent);
 }
 .hero__background {
-
+    border-radius: 30px;
+    overflow: hidden;
 }
 .hero__background-img {
-    
+    object-fit: cover;
+    object-position: center;
 }

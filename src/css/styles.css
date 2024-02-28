@@ -1,5 +1,12 @@
 @import url('./reset.css');
 @import url('./catalog.css');
+@import url('./about.css');
+@import url('./hero.css');
+
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
 
 :root {
   --main: #0c0c0c;
