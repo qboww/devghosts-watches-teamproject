@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+@import url('./hero.css');
+
+@import url('./about.css');
+
+*,
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+
 :root {
   --main: #0c0c0c;
   --accent: #3350e9;
