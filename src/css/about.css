@@ -2,10 +2,6 @@
   .about-container {
     min-width: 320px;
     max-width: 375px;
-  }
-  .about-container {
-    min-width: 320px;
-    max-width: 375px;
     padding: 60px 20px;
   }
 
@@ -16,7 +12,7 @@
   }
 
   .about-block-text {
-    width: 100px;
+    width: calc(100% - 40px);
     border: none;
     border-radius: 30px;
     background: var(--cards);
@@ -89,9 +85,6 @@
 }
 
 @media (min-width: 375px) {
-  .about-container {
-    padding: 0 20px;
-  }
   .about-container {
     padding: 60px 20px;
   }
@@ -173,9 +166,6 @@
 
 @media (min-width: 768px) {
   .about-container {
-    padding: 0 32px;
-  }
-  .about-container {
     margin: 60px 32px;
     padding: 0px;
   }
@@ -193,9 +183,6 @@
   .block-content-wrapper {
     padding: 80px 60px;
     margin: 0;
-  }
-  .block-content-wrapper {
-    padding: 80px 60px;
   }
 
   .about-header {
@@ -239,13 +226,6 @@
     justify-content: center;
     gap: 40px;
   }
-  .about-container {
-    padding: 0 65px;
-    flex-direction: row;
-    align-items: unset;
-    justify-content: center;
-    gap: 40px;
-  }
 
   .about-block-text {
     padding-right: 40px;
@@ -259,6 +239,10 @@
     width: 580px;
   }
 
+  .about-block-image {
+    margin: 0px;
+  }
+
   .about-image {
     width: 530px;
   }
@@ -266,13 +250,5 @@
   .about-button:hover,
   .about-button:focus {
     background: #1f3cd4;
-  }
-  .about-button:hover,
-  .about-button:focus {
-    background: #1f3cd4;
-  }
-
-  .about-block-image {
-    margin-bottom: 60px;
   }
 }
