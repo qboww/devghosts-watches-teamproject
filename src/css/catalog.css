@@ -19,6 +19,7 @@
 .catalog {
 }
 .catalog-main-title {
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -109,6 +110,7 @@ ul.catalog-list li:nth-child(n + 5) {
   width: 280px;
 }
 .catalog-title {
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -133,6 +135,7 @@ ul.catalog-list li:nth-child(n + 5) {
   }
 }
 .catalog-text {
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
