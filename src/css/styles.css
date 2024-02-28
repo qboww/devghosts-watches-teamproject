@@ -1,5 +1,10 @@
 @import url('./reset.css');
 
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+
 :root {
   --main: #0c0c0c;
   --accent: #3350e9;
