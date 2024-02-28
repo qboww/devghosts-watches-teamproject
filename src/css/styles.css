@@ -1,20 +1,12 @@
 @import url('./reset.css');
+@import url('./catalog.css');
 @import url('./about.css');
+@import url('./hero.css');
 
 *,
 *::before *::after {
   box-sizing: border-box;
 }
-
-@import url('./hero.css');
-
-@import url('./about.css');
-
-*,
-*::before, *::after {
-  box-sizing: border-box;
-}
-
 
 :root {
   --main: #0c0c0c;
@@ -24,7 +16,7 @@
 }
 
 :root {
-  --font-family: "Gilroy", sans-serif;
+  --font-family: 'Gilroy', sans-serif;
 }
 
 .container {
