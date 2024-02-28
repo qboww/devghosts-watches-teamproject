@@ -1,7 +1,8 @@
 @media (min-width: 320px) and (max-width: 375px) {
     .about-container {
         min-width: 320px;
-        max-width: 375px
+        max-width: 375px;
+        padding: 60px 20px;
     }
 
     .about-container {
@@ -12,13 +13,15 @@
 
     .about-block-text {
         width: calc(100% - 40px);
-        height: 446px;
         border: none;
         border-radius: 30px;
         background: var(--cards);
         margin-bottom: 20px;
         align-items: center;
-        padding-bottom: 40px;
+    }
+
+    .about-header {
+        padding-top: 40px;
     }
 
     .block-content-wrapper {
@@ -84,7 +87,7 @@
 
 @media (min-width: 375px) {
     .about-container {
-        padding: 0 20px;
+        padding: 60px 20px;
     }
 
     .about-container {
@@ -165,7 +168,8 @@
 
 @media (min-width: 768px) {
     .about-container {
-        padding: 0 32px;
+        margin: 60px 32px;
+        padding: 0px;
     }
 
     .about-block-text {
@@ -180,6 +184,7 @@
 
     .block-content-wrapper {
         padding: 80px 60px;
+        margin: 0;
     }
 
     .about-header {
@@ -216,7 +221,8 @@
 
 @media (min-width: 1280px) {
     .about-container {
-        padding: 0 65px;
+        margin: 100px 65px;
+        padding: 0px;
         flex-direction: row;
         align-items: unset;
         justify-content: center;
@@ -242,9 +248,5 @@
     .about-button:hover,
     .about-button:focus {
         background: #1f3cd4;
-    }
-
-    .about-block-image {
-        margin-bottom: 60px;
     }
 }
