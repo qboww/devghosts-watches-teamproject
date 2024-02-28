@@ -17,6 +17,7 @@
   }
 }
 .catalog {
+  margin-bottom: 60px;
 }
 .catalog-main-title {
   font-family: var(--font-family);
@@ -82,6 +83,7 @@ ul.catalog-list li:nth-child(n + 5) {
   }
 }
 .calog-btn {
+  font-family: var(--font-family);
   display: block;
   border-radius: 16px;
   border: 0;
@@ -103,6 +105,8 @@ ul.catalog-list li:nth-child(n + 5) {
 
 .catalog-pic {
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .catalog-text-wrapper {
