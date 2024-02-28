@@ -76,6 +76,10 @@
         height: 446px;
         margin: 0 auto;
     }
+
+    .about-block-image {
+        margin-bottom: 60px;
+    }
 }
 
 @media (min-width: 375px) {
@@ -152,6 +156,10 @@
         border: none;
         width: 335px;
         height: 446px;
+    }
+
+    .about-block-image {
+        margin-bottom: 60px;
     }
 }
 
@@ -234,5 +242,9 @@
     .about-button:hover,
     .about-button:focus {
         background: #1f3cd4;
+    }
+
+    .about-block-image {
+        margin-bottom: 60px;
     }
 }
