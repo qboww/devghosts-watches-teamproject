@@ -82,6 +82,10 @@
   .about-block-image {
     margin-bottom: 60px;
   }
+
+  .about-block-image {
+    margin: 0px;
+  }
 }
 
 @media (min-width: 375px) {
@@ -160,7 +164,7 @@
   }
 
   .about-block-image {
-    margin-bottom: 60px;
+    margin: 0px;
   }
 }
 
