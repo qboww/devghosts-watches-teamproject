@@ -1,0 +1,141 @@
+.container {
+  min-width: 320px;
+  max-width: 335px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+    padding: 0 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1150px;
+    padding: 0 65px;
+  }
+}
+.catalog {
+}
+.catalog-main-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .catalog-main-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+  }
+}
+.catalog-list {
+  display: flex;
+  text-decoration: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .catalog-list {
+    gap: 32px 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .catalog-list {
+    gap: 32px 23px;
+  }
+}
+ul.catalog-list li:nth-child(n + 5) {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  ul.catalog-list li:nth-child(n + 5) {
+    display: unset;
+  }
+}
+
+.catalog-list-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  padding: 24px 28px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 768px) {
+  .catalog-list-item {
+    width: calc((100% - 16px) / 2);
+    padding: 24px 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .catalog-list-item {
+    width: calc((100% - 23px * 2) / 3);
+    padding: 24px 32px;
+  }
+}
+.calog-btn {
+  display: block;
+  border-radius: 16px;
+  border: 0;
+  width: 160px;
+  height: 48px;
+  margin: 0 auto;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #fbfbfb;
+}
+@media screen and (min-width: 768px) {
+  .calog-btn {
+    display: none;
+  }
+}
+
+.catalog-pic {
+  margin: 0 auto;
+}
+
+.catalog-text-wrapper {
+  margin-top: 10px;
+  width: 280px;
+}
+.catalog-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .catalog-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 280px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .catalog-title {
+    width: 304px;
+  }
+}
+.catalog-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
