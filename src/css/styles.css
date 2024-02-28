@@ -1,7 +1,12 @@
 @import url('./reset.css');
 @import url('./catalog.css');
 @import url('./about.css');
+<<<<<<< Updated upstream
 @import url('./hero.css');
+=======
+@import url('./contact-us.css');
+@import url('./reviews.css');
+>>>>>>> Stashed changes
 
 *,
 *::before *::after {
