@@ -5,14 +5,15 @@
 }
 
 :root {
+  --font-family: 'Gilroy', sans-serif;
   --main: #0c0c0c;
   --accent: #3350e9;
   --background: #fbfbfb;
   --cards: #f3f3f3;
 }
 
-:root {
-  --font-family: 'Gilroy', sans-serif;
+body {
+  font-family: 'Gilroy', sans-serif;
 }
 
 .hide {
