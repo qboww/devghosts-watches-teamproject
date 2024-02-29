@@ -17,8 +17,10 @@
   }
 }
 .catalog {
+  margin-bottom: 60px;
 }
 .catalog-main-title {
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -81,6 +83,7 @@ ul.catalog-list li:nth-child(n + 5) {
   }
 }
 .calog-btn {
+  font-family: var(--font-family);
   display: block;
   border-radius: 16px;
   border: 0;
@@ -102,6 +105,8 @@ ul.catalog-list li:nth-child(n + 5) {
 
 .catalog-pic {
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .catalog-text-wrapper {
@@ -109,6 +114,7 @@ ul.catalog-list li:nth-child(n + 5) {
   width: 280px;
 }
 .catalog-title {
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -133,6 +139,7 @@ ul.catalog-list li:nth-child(n + 5) {
   }
 }
 .catalog-text {
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
