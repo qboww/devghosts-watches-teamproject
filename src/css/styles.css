@@ -1,33 +1,10 @@
+@import url('./src/font-gilroy/fonts.css');
 @import url('./reset.css');
-@import url('./catalog.css');
-@import url('./about.css');
-@import url('./hero.css');
-@import url('./contact-us.css');
-@import url('./reviews.css');
+@import url('./src/css/globals.css');
+
 @import url('./header.css');
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-:root {
-  --main: #0c0c0c;
-  --accent: #3350e9;
-  --background: #fbfbfb;
-  --cards: #f3f3f3;
-}
-
-:root {
-  --font-family: 'Gilroy', sans-serif;
-}
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.hide {
-  display: none;
-}
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./catalog.css');
+@import url('./reviews.css');
+@import url('./contact-us.css');
