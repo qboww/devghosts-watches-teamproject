@@ -1,5 +1,6 @@
 @import url('./src/font-gilroy/fonts.css');
 @import url('./reset.css');
+@import url('./src/css/globals.css');
 
 @import url('./header.css');
 @import url('./hero.css');
