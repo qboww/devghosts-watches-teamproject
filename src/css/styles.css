@@ -1,5 +1,10 @@
 @import url('./reset.css');
-@import url('./header.css');
+@import url('./about.css');
+@import url('../css/advertisement.css');
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
 
 :root {
   --main: #0c0c0c;
@@ -9,5 +14,15 @@
 }
 
 :root {
-  --font-family: "Gilroy", sans-serif;
+  --font-family: 'Gilroy', sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hide {
+  display: none;
 }
