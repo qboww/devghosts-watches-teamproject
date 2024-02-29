@@ -15,6 +15,7 @@
   padding: 0 20px;
 }
 .hero-description {
+  max-width: 335px;
   margin-bottom: 28px;
 }
 .hero-title {
@@ -67,8 +68,8 @@
   color: inherit;
   transition: color 250ms ease-in;
 }
-.hero-scroll:hover,
-.hero-scroll:active {
+.hero-scroll-link:hover,
+.hero-scroll-link:active {
   color: var(--accent);
 }
 .hero-background {
@@ -90,10 +91,12 @@
   }
   .hero-wrap-text {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 40px;
   }
   .hero-description {
-    margin-bottom: 40px;
+    max-width: 557px;
+    margin-bottom: 0;
   }
   .hero-inner-block {
     max-width: 136px;
@@ -122,8 +125,7 @@
     padding: 0 65px;
   }
   .hero-wrap-text {
-    display: flex;
-    justify-content: space-between;
+
   }
   .hero-description {
     max-width: 597px;
