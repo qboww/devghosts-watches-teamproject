@@ -14,10 +14,10 @@
   max-width: 375px;
   padding: 0 20px;
 }
-.hero__description {
+.hero-description {
   margin-bottom: 28px;
 }
-.hero__title {
+.hero-title {
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 40px;
@@ -25,10 +25,10 @@
   letter-spacing: -0.02em;
   color: var(--main);
 }
-.hero__title-span {
+.hero-title-span {
   color: var(--accent);
 }
-.hero__text {
+.hero-text {
   max-width: 333px;
   font-weight: 500;
   font-size: 14px;
@@ -36,28 +36,28 @@
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
-.hero__inner-block {
+.hero-inner-block {
   margin-bottom: 28px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
-.hero__people-list {
+.hero-people-list {
   display: flex;
 }
-.hero__people-item {
+.hero-people-item {
   display: flex;
   align-items: center;
 }
-.hero__people-item:not(:first-child) {
+.hero-people-item:not(:first-child) {
   margin-left: -12px;
 }
-.hero__people-img {
+.hero-people-img {
   display: block;
   width: 100%;
   height: auto;
 }
-.hero__scroll-link {
+.hero-scroll-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 100%;
@@ -67,15 +67,15 @@
   color: inherit;
   transition: color 250ms ease-in;
 }
-.hero__scroll:hover,
-.hero__scroll:active {
+.hero-scroll:hover,
+.hero-scroll:active {
   color: var(--accent);
 }
-.hero__background {
+.hero-background {
   border-radius: 30px;
   overflow: hidden;
 }
-.hero__background-img {
+.hero-background-img {
   object-fit: cover;
   object-position: center;
 }
@@ -88,28 +88,28 @@
   .hero {
     padding-top: 80px;
   }
-  .hero__wrap-text {
+  .hero-wrap-text {
     display: flex;
   }
-  .hero__description {
+  .hero-description {
     margin-bottom: 40px;
   }
-  .hero__inner-block {
+  .hero-inner-block {
     max-width: 136px;
     flex-shrink: 0;
     margin-bottom: 40px;
     flex-direction: column;
   }
-  .hero__title {
+  .hero-title {
     font-size: 70px;
     line-height: 86%;
   }
-  .hero__text {
+  .hero-text {
     max-width: 480px;
     font-size: 16px;
     line-height: 125%;
   }
-  .hero__background-img {
+  .hero-background-img {
     width: 100%;
     height: auto;
   }
@@ -120,14 +120,14 @@
     max-width: 1280px;
     padding: 0 65px;
   }
-  .hero__wrap-text {
+  .hero-wrap-text {
     display: flex;
     justify-content: space-between;
   }
-  .hero__description {
+  .hero-description {
     max-width: 597px;
   }
-  .hero__title {
+  .hero-title {
     font-size: 72px;
     line-height: 87%;
   }
