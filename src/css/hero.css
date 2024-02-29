@@ -73,13 +73,25 @@
   color: var(--accent);
 }
 .hero-background {
+  position: relative;
   border-radius: 30px;
   overflow: hidden;
 }
+.hero-background::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right , rgba(12, 12, 12, .2)0%, rgba(12, 12, 12, .2)100%);
+}
 .hero-background-img {
+  display: block;
   object-fit: cover;
   object-position: center;
 }
+
 
 @media (min-width: 768px) {
   .container {
