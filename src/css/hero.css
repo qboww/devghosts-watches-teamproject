@@ -90,6 +90,7 @@
   }
   .hero-wrap-text {
     display: flex;
+    margin-bottom: 40px;
   }
   .hero-description {
     margin-bottom: 40px;
@@ -97,7 +98,7 @@
   .hero-inner-block {
     max-width: 136px;
     flex-shrink: 0;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     flex-direction: column;
   }
   .hero-title {
@@ -130,5 +131,8 @@
   .hero-title {
     font-size: 72px;
     line-height: 87%;
+  }
+  .hero-inner-block {
+    max-width: 146px;
   }
 }
