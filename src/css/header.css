@@ -25,7 +25,6 @@ a {
   .header-nav {
     display: flex;
     align-items: center;
-    padding-left: 20px;
   }
 
   .social-list-header {
@@ -68,10 +67,6 @@ a {
     height: 92px;
   }
 
-  .header-nav {
-    padding-left: 32px;
-  }
-
   .logo {
     font-family: var(--font-family);
     font-weight: 500;
@@ -105,7 +100,6 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding-right: 64.5px;
   }
 
   .header-links-list {
@@ -126,10 +120,6 @@ a {
   .nav-container {
     height: 100%;
     width: 100%;
-  }
-
-  .header-nav {
-    padding-left: 64.5px;
   }
 
   .header-links-list {
