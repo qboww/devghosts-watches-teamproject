@@ -18,8 +18,37 @@ flex-wrap: wrap;
 gap: 20px;
 margin-bottom: 100px;
 position: absolute; /*I really dont know how it works !!! */
+}
+
+  @media only screen and (min-width: 1280px) {
+    .reviews-list {
+      gap: 20px;
+    }
   }
 
+  @media only screen and (min-width: 1280px) {
+    .reviews-item {
+      width: calc((100% - 20px * 2) / 3);
+    }
+  }
+
+  @media only screen and (max-width: 1279px) {
+    .reviews-item:nth-last-child(-n + 1) {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .reviews-item {
+      width: calc((100% - 16px * 1) / 2);
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .reviews-item:nth-last-child(-n + 2) {
+      display: none;
+    }
+  }
 
 .reviews-item-cont{
 display: flex;
@@ -34,8 +63,6 @@ background: var(--cards);
 border-radius: 30px;
 position: relative; /*I really dont know how it works !!! */
 }
-
-
 
 .reviews-author {
 margin-bottom: 8px;
