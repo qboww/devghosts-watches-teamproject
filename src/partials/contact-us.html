@@ -1,45 +1,77 @@
 <section class="section-contact">
   <div class="container">
-    <div class="contact-left-wrapper">
-      <p class="contact-paragraph">
-        Please use the form below to contact us. Enter your name, email, phone,
-        and message and we'll get back to you shortly.
-      </p>
+    <div class="contact-wrapper">
+      <div class="contact-left-wrapper">
+        <p class="contact-paragraph">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <div class="form-wrapper">
+          <form class="contact-left-form">
+            <input
+              class="contact-input"
+              name="contact-input"
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              class="contact-input"
+              name="contact-input"
+              type="email"
+              placeholder="Email"
+            />
+            <input
+              class="contact-input"
+              name="contact-input"
+              type="tel"
+              placeholder="+380"
+            />
+            <textarea
+              class="contact-input"
+              id="contact-comment"
+              name="contact-comment"
+              rows="3"
+              placeholder="Comment"
+              style="resize: none"
+            ></textarea>
+          </form>
+        </div>
+        <button class="contact-button" type="submit">Send</button>
+      </div>
 
-      <form action="" class="contact-left-form">
-        <input
-          class="contact-input"
-          name="contact-input"
-          type="text"
-          placeholder="Name"
-        />
-        <input
-          class="contact-input"
-          name="contact-input"
-          type="email"
-          placeholder="Email"
-        />
-        <input
-          class="contact-input"
-          name="contact-input"
-          type="tel"
-          placeholder="+380"
-        />
-        <textarea
-          class="contact-textarea"
-          name="contact-comment"
-          id="contact-comment"
-          cols="30"
-          rows="10"
-          placeholder="Text input"
-        ></textarea>
-      </form>
-
-      <button class="contact-button" type="submit">Send</button>
-    </div>
-
-    <div class="contact-right-wrapper">
-      <img src="/" alt="" />
+      <div class="contact-right-wrapper">
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./images/contact-us/contact-us-background-desc@1x.jpg 1x,
+              ./images/contact-us/contact-us-background-desc@2x.jpg 2x
+            "
+          />
+          <!-- Tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/contact-us/contact-us-background-tab@1x.jpg 1x,
+              ./images/contact-us/contact-us-background-tab@2x.jpg 2x
+            "
+          />
+          <!-- Mobile screen -->
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/contact-us/contact-us-background-mob@1x.jpg 1x,
+              ./images/contact-us/contact-us-background-mob@2x.jpg 2x
+            "
+          />
+          <img
+            class="contact-image"
+            src="./images/contact-us/contact-us-background-desc@1x.jpg"
+            alt="watches"
+          />
+        </picture>
+      </div>
     </div>
   </div>
 </section>

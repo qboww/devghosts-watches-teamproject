@@ -1,17 +1,49 @@
 @media (min-width: 320px) {
-  .section-contact {
-  }
-  .contact-left-wrapper {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
   }
 
-  .contact-right-wrapper {
+  .contact-left-wrapper {
+    background: var(--cards);
+    padding: 50px 60px;
+    border-radius: 50px;
   }
+  .contact-image {
+    border-radius: 50px;
+  }
+
   .contact-paragraph {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 32px;
   }
+
+  .contact-left-form {
+    gap: 10px;
+  }
+
+  .contact-input {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--main);
+
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 16px 398px 16px 18px;
+  }
+
   .contact-left-form {
   }
-  .contact-input {
-  }
+
   .contact-button {
   }
 }
