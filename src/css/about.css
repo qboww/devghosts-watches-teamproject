@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .about-header {
     font-family: var(--font-family);
     font-weight: 600;
@@ -45,6 +45,7 @@
     box-sizing: border-box;
     border-radius: 30px;
     border: none;
+    width: 100%;
   }
 
   .about-block-text {
@@ -53,7 +54,7 @@
     border-radius: 30px;
     padding: 40px 20px;
     margin-bottom: 40px;
-    width: 335px;
+    width: 100%;
   }
 
   .about-container {
@@ -64,7 +65,7 @@
   }
 
   .about-section {
-    padding: 60px 0px;
+    padding: 30px 0px;
   }
 }
 
@@ -97,7 +98,7 @@
   }
 
   .about-section {
-    padding: 80px 0px;
+    padding: 40px 0px;
   }
 }
 
@@ -129,7 +130,7 @@
   }
 
   .about-section {
-    padding: 100px 0px;
+    padding: 50px 0px;
   }
 
   .about-button {
