@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   .about-header {
     font-family: var(--font-family);
     font-weight: 600;
@@ -45,6 +45,7 @@
     box-sizing: border-box;
     border-radius: 30px;
     border: none;
+    width: 100%;
   }
 
   .about-block-text {
@@ -53,7 +54,7 @@
     border-radius: 30px;
     padding: 40px 20px;
     margin-bottom: 40px;
-    width: 335px;
+    width: 100%;
   }
 
   .about-container {
