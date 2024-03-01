@@ -60,7 +60,7 @@
 }
 .hero-scroll-link {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 100%;
   letter-spacing: -0.02em;
   text-decoration: underline;
@@ -127,6 +127,9 @@
     max-width: 480px;
     font-size: 16px;
     line-height: 125%;
+  }
+  .hero-scroll-link {
+    font-size: 20px;
   }
   .hero-background-img {
     width: 100%;
