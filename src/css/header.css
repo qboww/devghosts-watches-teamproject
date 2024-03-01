@@ -154,13 +154,12 @@ a {
   .nav-link-studio::after {
     content: '';
     position: absolute;
-    left: 15px;
-    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
     height: 8px;
     width: 8px;
     background-color: #3350e9;
     border-radius: 50%;
-    display: inline-block;
-    display: flex;
   }
 }
