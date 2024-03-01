@@ -14,7 +14,7 @@
   }
 }
 
-/* .advertisement .container {
+.advertisement-box {
   display: flex;
   flex-direction: column;
   gap: 28px;
@@ -32,18 +32,18 @@
       rgba(17, 17, 17, 0.4)
     ),
     url('../images/advertisement/advertisement-background-mob@1x.jpg');
-} */
-/* @media (min-resolution: 192dpi) {
-    .advertisement .container {
-      background-image: linear-gradient(
-          rgba(17, 17, 17, 0.4),
-          rgba(17, 17, 17, 0.4)
-        ),
-        url('../images/advertisement/advertisement-background-mob@2x.jpg');
-    }
-  } */
-/* @media only screen and (min-width: 768px) {
-  .advertisement .container {
+}
+@media (min-resolution: 192dpi) {
+  .advertisement-box {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url('../images/advertisement/advertisement-background-mob@2x.jpg');
+  }
+}
+@media only screen and (min-width: 768px) {
+  .advertisement-box {
     border-radius: 30px;
     padding: 80px 64px;
     max-width: 704px;
@@ -57,7 +57,7 @@
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .advertisement.container {
+  .advertisement-box {
     margin: 0 auto;
     background-image: linear-gradient(
         rgba(17, 17, 17, 0.4),
@@ -67,7 +67,7 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .advertisement.container {
+  .advertisement-box {
     max-width: 1150px;
     display: flex;
     flex-direction: row;
@@ -82,7 +82,7 @@
   }
 }
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .advertisement .container {
+  .advertisement-box {
     max-width: 1150px;
     display: flex;
     flex-direction: row;
@@ -94,7 +94,7 @@
       ),
       url('../images/advertisement/advertisement-background-desc@2x.jpg');
   }
-} */
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
