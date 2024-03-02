@@ -3,10 +3,16 @@
     padding: 30px 0px;
   }
 
+  .contact-input:active,
+  .contact-input:focus {
+    border: 1px solid var(--accent);
+  }
+
   .contact-wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100%;
   }
   .contact-left-wrapper {
     background: var(--cards);
