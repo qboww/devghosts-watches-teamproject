@@ -1,6 +1,6 @@
 // Arrow up button
 const arrowUp = {
-  item: document.querySelector('.arrow'),
+  item: document.querySelector('.arrow-button'),
 
   hide() {
     this.item.classList.add('hide');
