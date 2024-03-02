@@ -6,6 +6,7 @@
   .contact-input:active,
   .contact-input:focus {
     border: 1px solid var(--accent);
+    outline: var(--accent);
   }
 
   .contact-wrapper {
