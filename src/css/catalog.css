@@ -78,6 +78,7 @@ ul.catalog-list li:nth-child(n + 5) {
   border-radius: 30px;
   padding: 24px 28px;
   box-sizing: border-box;
+  width: auto;
 }
 @media screen and (min-width: 768px) {
   .catalog-list-item {
@@ -124,6 +125,11 @@ ul.catalog-list li:nth-child(n + 5) {
 }
 .catalog-text-wrapper {
   width: 280px;
+}
+@media screen and (min-width: 1280px) {
+  .catalog-text-wrapper {
+    width: 304px;
+  }
 }
 .catalog-title {
   font-family: var(--font-family);
