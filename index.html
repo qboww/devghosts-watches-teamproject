@@ -12,7 +12,7 @@
     />
     <title>WatchCharm</title>
     
-    <link rel="stylesheet" href="/devghosts-watches-teamproject/assets/index-3be98140.css">
+    <link rel="stylesheet" href="/devghosts-watches-teamproject/assets/index-2b34262b.css">
   </head>
 
   <body>
@@ -575,80 +575,78 @@
   </div>
 </section>
 
-      <section class="contact-us-section" id="contact-us">
+      <section class="section-contact">
   <div class="container">
-    <h2 class="contact-title">Contact Us</h2>
-    <div class="contact-us-wrapper">
-      <div class="made-left-side">
-        <p class="left-paragraph">
+    <h2 class="contact-header">Contact Us</h2>
+    <div class="contact-wrapper">
+      <div class="contact-left-wrapper">
+        <p class="contact-paragraph">
           Please use the form below to contact us. Enter your name, email,
           phone, and message and we'll get back to you shortly.
         </p>
-        <form>
-          <div class="contact-us-form">
-            <!-- Form Name-->
-            <label class="contacts-us-label">
+        <form class="contact-left-form">
+          <ul class="contact-list">
+            <li class="contact-item">
               <input
-                class="contact-us-input"
+                class="contact-input"
+                name="contact-input"
                 type="text"
-                name="user_name"
-                id="user_name"
-                minlength="3"
-                pattern="[a-zA-Z]+\s[a-zA-Z]*"
                 placeholder="Name"
               />
-            </label>
-
-            <!-- Form Email-->
-            <label class="contacts-us-label">
+            </li>
+            <li class="contact-item">
               <input
-                class="contact-us-input"
+                class="contact-input"
+                name="contact-input"
                 type="email"
-                name="user_email"
-                id="user_email"
-                minlength="3"
                 placeholder="Email"
               />
-            </label>
-
-            <!-- Form Tel -->
-            <label class="contacts-us-label">
+            </li>
+            <li class="contact-item">
               <input
-                class="contact-us-input"
+                class="contact-input"
+                name="contact-input"
                 type="tel"
-                name="user_phone"
-                id="user_phone"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                title="xxx-xxx-xx-xx"
                 placeholder="+380"
               />
-            </label>
-
-            <label class="contacts-us-label">
+            </li>
+            <li class="contact-item">
               <textarea
-                name="user_message"
-                id="user_message"
-                rows="4"
-                class="contact-us-comment message"
+                class="contact-input"
+                id="contact-comment"
+                name="contact-comment"
+                rows="3"
                 placeholder="Comment"
+                style="resize: none"
               ></textarea>
-            </label>
-          </div>
-
-          <div class="button-form-cont">
-            <button type="submit" class="btn-form-cont">Send</button>
-          </div>
+            </li>
+          </ul>
         </form>
+        <button class="contact-button" type="submit">Send</button>
       </div>
-
-      <div class="made-right-side">
-        <img
-          class="cont-us-pic"
-          src="/devghosts-watches-teamproject/assets/contact-us-background-desc@1x-dd278dd1.jpg"
-          alt="Watches on stone"
-          width="530"
-          height="536"
-        />
+      <div class="contact-right-wrapper">
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="/devghosts-watches-teamproject/assets/contact-us-background-desc@1x-dd278dd1.jpg 1x, /devghosts-watches-teamproject/assets/contact-us-background-desc@2x-667d318b.jpg 2x"
+          />
+          <!-- Tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/devghosts-watches-teamproject/assets/contact-us-background-tab@1x-a63c7f94.jpg 1x, /devghosts-watches-teamproject/assets/contact-us-background-tab@2x-a31ea5ab.jpg 2x"
+          />
+          <!-- Mobile screen -->
+          <source
+            media="(min-width: 320px)"
+            srcset="/devghosts-watches-teamproject/assets/contact-us-background-mob@1x-82020fb5.jpg 1x, /devghosts-watches-teamproject/assets/contact-us-background-mob@2x-66b7935e.jpg 2x"
+          />
+          <img
+            class="contact-image"
+            src="/devghosts-watches-teamproject/assets/contact-us-background-desc@1x-dd278dd1.jpg"
+            alt="watches"
+          />
+        </picture>
       </div>
     </div>
   </div>
