@@ -33,12 +33,18 @@
     line-height: 129%;
     text-align: center;
     color: var(--background);
+  }
 
+  .about-button-wrapper {
     width: 160px;
     height: 48px;
     border: none;
     border-radius: 16px;
     background: var(--accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
   }
 
   .about-image {
@@ -135,11 +141,5 @@
 
   .about-button {
     cursor: pointer;
-  }
-
-  .about-button:hover,
-  .about-button:focus {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: #1f3cd4;
   }
 }
