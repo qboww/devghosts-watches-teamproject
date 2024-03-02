@@ -180,9 +180,8 @@ footer {
   text-align: center;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
-  width: 152px;
-  height: 44px;
   padding: 14px 20px;
+  width: fit-content;
 }
 @media only screen and (min-width: 768px) {
   .footer-address-link {
@@ -297,7 +296,7 @@ footer {
 .footer-address-box {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+
   padding-bottom: 24px;
   max-width: 83px;
 }
@@ -305,7 +304,7 @@ footer {
   .footer-address-box {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+
     padding-bottom: 0px;
     max-width: 162px;
   }
@@ -350,6 +349,11 @@ footer {
 }
 .footer-rights-text {
   margin-bottom: 8px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-rights-text {
+    margin-bottom: 0;
+  }
 }
 .footer-rights-paragraph {
   font-weight: 500;
