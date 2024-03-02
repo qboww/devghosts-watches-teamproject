@@ -48,5 +48,8 @@
       <path fill-rule="nonzero"
         d="M493.12 263.55c4.3 4.28 11.3 4.3 15.62.05 4.33-4.26 4.35-11.19.05-15.47L263.83 3.22c-4.3-4.27-11.3-4.3-15.63-.04L3.21 248.13c-4.3 4.28-4.28 11.21.05 15.47 4.32 4.25 11.32 4.23 15.62-.05L255.99 26.48l237.13 237.07z" />
     </symbol>
+     <symbol id="icon-x" viewBox="0 0 34 34">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M24 8 8 24M8 8l16 16"/>
+        </symbol>
   </defs>
 </svg>
