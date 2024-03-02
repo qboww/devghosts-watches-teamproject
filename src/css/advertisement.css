@@ -10,15 +10,14 @@
 
 @media only screen and (min-width: 1280px) {
   .advertisement {
-    padding: 60px 0;
+    padding: 80px 0;
   }
 }
 
 .advertisement-box {
   display: flex;
   flex-direction: column;
-  gap: 28px;
-  padding: 80px 64px;
+  padding: 60px 28px;
   background: #0c0c0c;
   border-radius: 30px;
   max-width: 335px;
@@ -123,6 +122,7 @@
   .advertisement-text {
     font-size: 48px;
     line-height: 92%;
+    margin-bottom: 0px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -142,7 +142,6 @@
   border-radius: 16px;
   width: 160px;
   height: 48px;
-  gap: 28px;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -157,7 +156,7 @@
   .advertisement-link {
     white-space: nowrap;
     display: flex;
-    transform: translateY(-43px);
+    transform: translateY(-45px);
     margin-top: 52px;
   }
 }
