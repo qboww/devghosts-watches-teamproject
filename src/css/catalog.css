@@ -1,24 +1,35 @@
+.catalog {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .catalog {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .catalog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 .container {
-  min-width: 320px;
-  max-width: 335px;
   padding: 0 20px;
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
     padding: 0 32px;
   }
 }
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1150px;
     padding: 0 65px;
   }
 }
-.catalog {
-}
 .catalog-main-title {
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -39,17 +50,17 @@
   text-decoration: none;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 16px;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .catalog-list {
-    gap: 32px 16px;
+    gap: 29px 16px;
   }
 }
 @media screen and (min-width: 1280px) {
   .catalog-list {
-    gap: 32px 23px;
+    gap: 26px 23px;
   }
 }
 ul.catalog-list li:nth-child(n + 5) {
@@ -80,7 +91,8 @@ ul.catalog-list li:nth-child(n + 5) {
     padding: 24px 32px;
   }
 }
-.calog-btn {
+.catalog-btn {
+  font-family: var(--font-family);
   display: block;
   border-radius: 16px;
   border: 0;
@@ -95,20 +107,26 @@ ul.catalog-list li:nth-child(n + 5) {
   color: #fbfbfb;
 }
 @media screen and (min-width: 768px) {
-  .calog-btn {
+  .catalog-btn {
     display: none;
   }
 }
 
 .catalog-pic {
-  margin: 0 auto;
+  margin: 18px auto 28px;
+  display: flex;
+  justify-content: center;
 }
-
+@media screen and (min-width: 768px) {
+  .catalog-pic {
+    margin: 10px auto 20px;
+  }
+}
 .catalog-text-wrapper {
-  margin-top: 10px;
   width: 280px;
 }
 .catalog-title {
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -133,9 +151,10 @@ ul.catalog-list li:nth-child(n + 5) {
   }
 }
 .catalog-text {
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 133%;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
 }

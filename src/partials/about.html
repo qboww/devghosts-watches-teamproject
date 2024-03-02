@@ -1,10 +1,7 @@
-<link href="/src/css/styles.css" rel="stylesheet" />
-<link href="/src/css/reset.css" rel="stylesheet" />
-
 <section class="about-section">
-  <div class="about-container">
-    <div class="about-block-text">
-      <div class="block-content-wrapper">
+  <div class="container">
+    <div class="about-container">
+      <div class="about-block-text">
         <h2 class="about-header">About Us</h2>
         <ul class="about-list">
           <li class="about-list-item">
@@ -19,48 +16,49 @@
           <li class="about-list-item">
             <p class="about-paragraph">
               At our premium watch collection, we believe that a watch is more
-              than just a timekeeping device – it's a statement piece that
+              than just a timekeeping device - it's a statement piece that
               reflects your personality and style. So why settle for anything
               less than the best?
             </p>
           </li>
         </ul>
-        <button class="about-button" type="button">View catalog</button>
+        <div class="container-button">
+          <button class="about-button" type="submit">View catalog</button>
+        </div>
       </div>
-    </div>
-
-    <div class="about-block-image">
-      <picture>
-        <!-- Desktop screen -->
-        <source
-          media="(min-width: 1280px)"
-          srcset="
-            /src/images/about-us/about-us-picture-desc@1x.jpg 1x,
-            /src/images/about-us/about-us-picture-desc@2x.jpg 2x
-          "
-        />
-        <!-- Tablet screen -->
-        <source
-          media="(min-width: 768px)"
-          srcset="
-            /src/images/about-us/about-us-picture-tab@1x.png 1x,
-            /src/images/about-us/about-us-picture-tab@2x.png 2x
-          "
-        />
-        <!-- Mobile screen -->
-        <source
-          media="(min-width: 320px)"
-          srcset="
-            /src/images/about-us/about-us-picture-mob@1x.png 1x,
-            /src/images/about-us/about-us-picture-mob@2x.png 2x
-          "
-        />
-        <img
-          src="/src/images/about-us/about-us-picture-desc@1x.jpg"
-          alt="watches"
-          class="about-image"
-        />
-      </picture>
+      <div class="about-block-image">
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./images/about-us/about-us-picture-desc@1x.jpg 1x,
+              ./images/about-us/about-us-picture-desc@2x.jpg 2x
+            "
+          />
+          <!-- Tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/about-us/about-us-picture-tab@1x.png 1x,
+              ./images/about-us/about-us-picture-tab@2x.png 2x
+            "
+          />
+          <!-- Mobile screen -->
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/about-us/about-us-picture-mob@1x.png  1x,
+              .//images/about-us/about-us-picture-mob@2x.png 2x
+            "
+          />
+          <img
+            src="../images/about-us/about-us-picture-desc@1x.jpg"
+            alt="watches"
+            class="about-image"
+          />
+        </picture>
+      </div>
     </div>
   </div>
 </section>
