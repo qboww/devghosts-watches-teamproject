@@ -6,7 +6,7 @@
   background: transparent;
 }
 
-.arrow {
+.arrow-image {
   z-index: 10;
   cursor: pointer;
   transition: fill 500ms;
