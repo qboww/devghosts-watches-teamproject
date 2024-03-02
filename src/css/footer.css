@@ -113,6 +113,7 @@ footer {
   width: 34px;
   height: 34px;
   opacity: 0.8;
+  transition: opacity .25s ease-in;
 }
 @media screen and (min-width: 768px) {
   .footer-social-link {
@@ -125,10 +126,6 @@ footer {
   opacity: 1;
 }
 .footer-social-icon {
-  fill: #f3f3f3;
-}
-
-.footer-social-icon:hover {
   fill: #fbfbfb;
 }
 
