@@ -13,6 +13,6 @@
   fill: var(--main);
 }
 
-.arrow:hover {
+.arrow-image:hover {
   fill: var(--accent);
 }
