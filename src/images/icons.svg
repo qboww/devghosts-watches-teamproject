@@ -25,5 +25,15 @@
                     stroke-linejoin="round" />
             </svg>
         </symbol>
+
+
+        <symbol id="icon-x" viewBox="0 0 34 34">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M24 8 8 24M8 8l16 16"/>
+        </symbol>
+
+        
+
+        
+
     </defs>
 </svg>
