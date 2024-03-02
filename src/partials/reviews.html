@@ -1,18 +1,21 @@
-<section class="reviews section" id="reviews">
-    <div class="container">
-      <h2 class="reviews-title"> Reviews
-      </h2>
-      <ul class="reviews-list">
-      <!-- 1 review -->
+<section class="section-reviews" id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">Reviews</h2>
+    <ul class="reviews-list">
       <li class="reviews-item">
-        <div class="reviews-item-cont">
-          <img
-            class="reviews-avatar"
-            src="./images/reviews/reviews-john@1x.png"
-            alt="John Wax"
-            width="56"
-            height="56"
-          />
+        <div class="reviews-item-wrapper">
+          <picture>
+            <img
+              srcset="
+                ./images/reviews/reviews-john@1x.png 1x,
+                ./images/reviews/reviews-john@2x.png 2x
+              "
+              src="./images/reviews/reviews-john@1x.png"
+              alt="person"
+              class="reviews-image"
+              width="56"
+            />
+          </picture>
           <h3 class="reviews-author">John Wax</h3>
           <p class="reviews-text">
             Buying a watch from was the best choice for me. The design is
@@ -22,15 +25,17 @@
         </div>
       </li>
 
-      <!-- 2 review -->
       <li class="reviews-item">
-        <div class="reviews-item-cont">
+        <div class="reviews-item-wrapper">
           <img
-            class="reviews-avatar"
+            srcset="
+              ./images/reviews/reviews-victoria@1x.png 1x,
+              ./images/reviews/reviews-victoria@2x.png 2x
+            "
             src="./images/reviews/reviews-victoria@1x.png"
-            alt="Victoria Romashenko"
+            alt="person"
+            class="reviews-image"
             width="56"
-            height="56"
           />
           <h3 class="reviews-author">Victoria Romashenko</h3>
           <p class="reviews-text">
@@ -41,15 +46,17 @@
         </div>
       </li>
 
-      <!-- 3 review -->
       <li class="reviews-item">
-        <div class="reviews-item-cont">
+        <div class="reviews-item-wrapper">
           <img
-            class="reviews-avatar"
+            srcset="
+              ./images/reviews/reviews-anastasia@1x.png 1x,
+              ./images/reviews/reviews-anastasia@2x.png 2x
+            "
             src="./images/reviews/reviews-anastasia@1x.png"
-            alt="Anastasia Trachuk"
+            alt="person"
+            class="reviews-image"
             width="56"
-            height="56"
           />
           <h3 class="reviews-author">Anastasia Trachuk</h3>
           <p class="reviews-text">
