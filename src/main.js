@@ -17,7 +17,7 @@ const arrowUp = {
       scrollByY > 400 ? this.show() : this.hide();
     });
 
-    document.querySelector('.arrow').onclick = () => {
+    document.querySelector('.arrow-button').onclick = () => {
       window.scrollTo({
         top: 0,
         left: 0,

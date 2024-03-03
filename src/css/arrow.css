@@ -6,13 +6,13 @@
   background: transparent;
 }
 
-.arrow {
+.arrow-image {
   z-index: 10;
   cursor: pointer;
   transition: fill 500ms;
   fill: var(--main);
 }
 
-.arrow:hover {
+.arrow-image:hover {
   fill: var(--accent);
 }
