@@ -1,4 +1,4 @@
-@media (min-width: 320px) {
+
   .section-contact {
     padding: 30px 0px;
   }
@@ -80,7 +80,7 @@
     text-align: center;
     color: var(--background);
   }
-}
+
 
 @media (min-width: 768px) {
   .section-contact {

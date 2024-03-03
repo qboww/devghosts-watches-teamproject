@@ -1,4 +1,4 @@
-@media (min-width: 320px) {
+
   .section-reviews {
     padding: 30px 0px;
   }
@@ -62,7 +62,7 @@
   .reviews-image {
     margin-bottom: 24px;
   }
-}
+
 
 @media (min-width: 768px) {
   .section-reviews {

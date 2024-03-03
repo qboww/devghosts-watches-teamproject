@@ -92,6 +92,11 @@ video {
   vertical-align: baseline;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,

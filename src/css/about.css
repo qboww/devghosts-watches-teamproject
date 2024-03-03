@@ -1,4 +1,4 @@
-@media (min-width: 320px) {
+
   .about-header {
     font-family: var(--font-family);
     font-weight: 600;
@@ -73,7 +73,7 @@
   .about-section {
     padding: 30px 0px;
   }
-}
+
 
 @media (min-width: 768px) {
   .about-paragraph {
