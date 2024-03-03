@@ -8,10 +8,12 @@ a {
     width: 100%;
   }
 
-  .menu-link {
+  .menu-button {
     display: flex;
     align-items: center;
     cursor: pointer;
+    border: none;
+    background-color: unset;
   }
 
   .nav-container {
@@ -90,7 +92,7 @@ a {
     height: 88px;
   }
 
-  .menu-link {
+  .menu-button {
     display: none;
   }
 
