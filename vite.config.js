@@ -9,6 +9,11 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
+    server: {
+      headers: {
+        'Cache-Control': 'max-age=31536000',
+      },
+    },
     build: {
       sourcemap: true,
 
