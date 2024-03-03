@@ -1,18 +1,19 @@
 a {
   text-decoration: none;
 }
-
-@media (min-width: 320px) {
   .nav-container {
     height: 100%;
     width: 100%;
   }
-
+/* button */
   .menu-link {
+
     display: flex;
     align-items: center;
     cursor: pointer;
-  }
+    background: none;
+    border: none;
+    }
 
   .nav-container {
     display: flex;
@@ -54,7 +55,7 @@ a {
     letter-spacing: -0.02em;
     color: var(--main);
   }
-}
+
 
 @media (min-width: 768px) {
   .nav-container {
