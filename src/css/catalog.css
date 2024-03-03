@@ -112,12 +112,24 @@ ul.catalog-list li:nth-child(n + 5) {
   margin: 18px auto 28px;
   display: flex;
   justify-content: center;
+  width: 208px;
+  height: 226px;
 }
 @media screen and (min-width: 768px) {
   .catalog-pic {
     margin: 10px auto 20px;
+    width: 268px;
+    height: 292px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .catalog-pic {
+    width: 292px;
+    height: 292px;
+  }
+}
+
 .catalog-text-wrapper {
   width: 280px;
 }
