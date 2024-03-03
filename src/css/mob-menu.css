@@ -29,7 +29,7 @@
       rgba(12, 12, 12, 0.92) 0%,
       rgba(12, 12, 12, 0.92) 100%
     ),
-    url(../images/mobile-menu/mobile-menu-background-mob@1x.jpg);
+    url(../images/mobile-menu/mobile-menu-background-mob@1x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,7 +41,7 @@
   opacity: 1;
   transform: translateX(0);
   transition-timing-function: ease-in;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 .btn-close-mob-menu {
   padding: 0;
@@ -178,7 +178,7 @@
         rgba(12, 12, 12, 0.92) 0%,
         rgba(12, 12, 12, 0.92) 100%
       ),
-      url(../images/mobile-menu/mobile-menu-background-mob@1x.jpg);
+      url(../images/mobile-menu/mobile-menu-background-mob@1x.webp);
     background-size: cover;
     background-repeat: no-repeat;
     transform: translateX(100%);
