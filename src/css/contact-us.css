@@ -1,86 +1,84 @@
+.section-contact {
+  padding: 30px 0px;
+}
 
-  .section-contact {
-    padding: 30px 0px;
-  }
+.contact-input:active,
+.contact-input:focus {
+  border: 1px solid var(--accent);
+  outline: var(--accent);
+}
 
-  .contact-input:active,
-  .contact-input:focus {
-    border: 1px solid var(--accent);
-    outline: var(--accent);
-  }
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.contact-left-wrapper {
+  background: var(--cards);
+  padding: 48px 28px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.contact-image {
+  border-radius: 50px;
+  width: 100%;
+}
 
-  .contact-wrapper {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .contact-left-wrapper {
-    background: var(--cards);
-    padding: 48px 28px;
-    border-radius: 50px;
-    margin-bottom: 20px;
-  }
-  .contact-image {
-    border-radius: 50px;
-    width: 100%;
-  }
+.contact-paragraph {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
+}
 
-  .contact-paragraph {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 28px;
-  }
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
 
-  .contact-list {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-  }
+.contact-header {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: var(--main);
 
-  .contact-header {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    color: var(--main);
+  margin-bottom: 24px;
+}
 
-    margin-bottom: 24px;
-  }
+.contact-input {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--main);
 
-  .contact-input {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 129%;
-    color: var(--main);
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  width: 100%;
+  padding: 12px 14px;
+}
+.contact-button {
+  border-radius: 16px;
+  width: 134px;
+  height: 42px;
+  background: var(--accent);
+  border: none;
+  cursor: pointer;
+  margin-top: 28px;
 
-    border: 1px solid rgba(12, 12, 12, 0.15);
-    border-radius: 12px;
-    width: 100%;
-    padding: 12px 14px;
-  }
-  .contact-button {
-    border-radius: 16px;
-    width: 134px;
-    height: 42px;
-    background: var(--accent);
-    border: none;
-    cursor: pointer;
-    margin-top: 28px;
-
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    text-align: center;
-    color: var(--background);
-  }
-
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: var(--background);
+}
 
 @media (min-width: 768px) {
   .section-contact {
@@ -143,6 +141,7 @@
     padding: 50px 60px;
     border-radius: 50px;
     height: 556px;
+    width: 580px;
     margin: 0;
   }
   .contact-image {
