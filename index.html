@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/devghosts-watches-teamproject/assets/favicon-4bc1398f.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>WatchCharm</title>
+    
+    <link rel="stylesheet" href="/devghosts-watches-teamproject/assets/index-85a98dc6.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="/devghosts-watches-teamproject/assets/favicon-4bc1398f.svg" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>WatchCharm</title>
-  
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="/devghosts-watches-teamproject/assets/index-85a98dc6.css">
-</head>
-
-<body>
-  <header>
-    <div class="header-section">
+  <body>
+    <header>
+      <div class="header-section">
   <div class="nav-container container">
     <nav class="header-nav">
       <a class="logo" href="#top">watchcharm</a>
@@ -77,9 +79,10 @@
   </div>
 </div>
 
-  </header>
-  <main>
-    <section class="hero hidden" id="header">
+    </header>
+
+    <main>
+      <section class="hero hidden" id="header">
   <div class="container">
     <div class="hero-wrap-text">
       <div class="hero-description">
@@ -138,7 +141,7 @@
   </div>
 </section>
 
-    <section class="about-section" id="about">
+      <section class="about-section" id="about">
   <div class="container">
     <div class="about-container">
       <div class="about-block-text">
@@ -181,7 +184,7 @@
   </div>
 </section>
 
-    <section class="catalog" id="catalog">
+      <section class="catalog" id="catalog">
   <div class="container">
     <h2 class="catalog-main-title">Catalog</h2>
     <ul class="catalog-list">
@@ -276,7 +279,7 @@
   </div>
 </section>
 
-    <section class="advertisement">
+      <section class="advertisement">
   <div class="container">
     <div class="advertisement-box">
       <h2 class="advertisement visually-hidden">Advertisement</h2>
@@ -289,7 +292,7 @@
   </div>
 </section>
 
-    <section class="sale" id="sale">
+      <section class="sale" id="sale">
   <div class="container">
     <h2 class="sale-heading">Sale</h2>
 
@@ -372,7 +375,7 @@
   </div>
 </section>
 
-    <section class="section-reviews" id="reviews">
+      <section class="section-reviews" id="reviews">
   <div class="container">
     <h2 class="reviews-title">Reviews</h2>
     <ul class="reviews-list">
@@ -438,7 +441,7 @@
   </div>
 </section>
 
-    <section class="section-contact" id="contact">
+      <section class="section-contact" id="contact">
   <div class="container">
     <h2 class="contact-header">Contact Us</h2>
     <div class="contact-wrapper">
@@ -518,9 +521,10 @@
   </div>
 </section>
 
-  </main>
-  <footer>
-    <div class="container">
+    </main>
+
+    <footer>
+      <div class="container">
   <div class="footer-container" id="footer">
     <div class="container-footer-top">
       <div class="social-logo">
@@ -623,8 +627,15 @@
   </div>
 </div>
 
-  </footer>
-  <div class="mob-menu-background">
+    </footer>
+
+    <button class="hide arrow-button">
+  <svg class="arrow-image" width="36" height="36">
+    <use href="/devghosts-watches-teamproject/assets/icons-e9f6a459.svg#arrow"></use>
+  </svg>
+</button>
+
+    <div class="mob-menu-background">
   <div class="mobile-menu">
     <button class="btn-close-mob-menu" id="close">
       <svg class="btn-icon">
@@ -692,17 +703,12 @@
   </div>
 </div>
 
-  <button class="hide arrow-button">
-  <svg class="arrow-image" width="36" height="36">
-    <use href="/devghosts-watches-teamproject/assets/icons-e9f6a459.svg#arrow"></use>
-  </svg>
-</button>
 
-  <script defer src="./main.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
+    <script defer src=“https://unpkg.com/aos@2.3.1/dist/aos.js”></script>
+    <script defer>
+      AOS.init();
+    </script>
+    <script defer src=“./main.js”></script>
 
+  </body>
 </html>
