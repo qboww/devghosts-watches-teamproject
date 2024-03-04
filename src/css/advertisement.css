@@ -38,7 +38,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('./images/advertisement/advertisement-background-mob@2x.webp');
+      url('../images/advertisement/advertisement-background-mob@2x.webp');
   }
 }
 @media only screen and (min-width: 768px) {
@@ -52,7 +52,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('./images/advertisement/advertisement-background-tab@1x.webp');
+      url('../images/advertisement/advertisement-background-tab@1x.webp');
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -62,7 +62,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('./images/advertisement/advertisement-background-tab@2x.webp.webp');
+      url('../images/advertisement/advertisement-background-tab@2x.webp.webp');
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -77,7 +77,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('./images/advertisement/advertisement-background-desc@1x.webp');
+      url('../images/advertisement/advertisement-background-desc@1x.webp');
   }
 }
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
@@ -91,7 +91,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('./images/advertisement/advertisement-background-desc@2x.webp');
+      url('../images/advertisement/advertisement-background-desc@2x.webp');
   }
 }
 .visually-hidden {
