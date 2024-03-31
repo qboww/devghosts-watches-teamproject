@@ -34,24 +34,17 @@ const btnOpen = document.querySelector('.menu-link');
 const mobileMenuBg = document.querySelector('.mob-menu-background');
 const mobileMenu = document.querySelector('.mobile-menu');
 
-
-btnOpen.addEventListener('click', (e) => {
- e.preventDefault();
- mobileMenuBg.classList.add('is-open')
- mobileMenu.classList.add('is-open')
-})
-
-btnClose.addEventListener('click', (e) => {
+btnOpen.addEventListener('click', e => {
   e.preventDefault();
-  mobileMenuBg.classList.remove('is-open')
-  mobileMenu.classList.remove('is-open')
-})
+  mobileMenuBg.classList.add('is-open');
+  mobileMenu.classList.add('is-open');
+});
 
-
-
-
-
-
+btnClose.addEventListener('click', e => {
+  e.preventDefault();
+  mobileMenuBg.classList.remove('is-open');
+  mobileMenu.classList.remove('is-open');
+});
 
 // const mobileMenu = {
 //   btnClose: document.querySelector('#close'),
@@ -63,7 +56,7 @@ btnClose.addEventListener('click', (e) => {
 //   mobileMenu: document.querySelector('.mobile-menu'),
 
 //   show: this.mobileMenuBg.add('is-open') && this.mobileMenu.add('is-open'),
-   
+
 //   close: this.mobileMenuBg.remove('is-open') && this.mobileMenu.remove('is-open'),
 
 //   listenMenu() {

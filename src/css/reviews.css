@@ -1,68 +1,66 @@
+.section-reviews {
+  padding: 30px 0px;
+}
 
-  .section-reviews {
-    padding: 30px 0px;
-  }
+.reviews-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: var(--main);
+  margin-bottom: 40px;
+}
 
-  .reviews-title {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    color: var(--main);
-    margin-bottom: 40px;
-  }
+.reviews-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
 
-  .reviews-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 20px;
-  }
+.reviews-item {
+  border-radius: 30px;
+  padding: 32px 36px;
+  background: var(--cards);
+}
 
-  .reviews-item {
-    border-radius: 30px;
-    padding: 32px 36px;
-    background: var(--cards);
-  }
+.reviews-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .reviews-item-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.reviews-author {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--main);
+  margin-bottom: 8px;
+}
 
-  .reviews-author {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 125%;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: var(--main);
-    margin-bottom: 8px;
-  }
+.reviews-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
+}
 
-  .reviews-text {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: rgba(12, 12, 12, 0.4);
-  }
+.reviews-item:nth-child(2),
+.reviews-item:nth-child(3) {
+  display: none;
+}
 
-  .reviews-item:nth-child(2),
-  .reviews-item:nth-child(3) {
-    display: none;
-  }
-
-  .reviews-image {
-    margin-bottom: 24px;
-  }
-
+.reviews-image {
+  margin-bottom: 24px;
+}
 
 @media (min-width: 768px) {
   .section-reviews {

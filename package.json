@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/devghosts-watches-teamproject/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,css,html}\""
   },
   "devDependencies": {
     "glob": "^8.1.0",
+    "prettier": "^3.2.5",
     "vite": "^4.5.2"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
