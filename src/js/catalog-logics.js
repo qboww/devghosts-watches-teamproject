@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sortSelect = document.getElementById('sort-select');
   const sortOrderSelect = document.getElementById('sort-order-select');
   const searchInput = document.getElementById('search-input');
+  const minPriceInput = document.getElementById('min-price-input');
   const prevPageBtn = document.getElementById('prev-page');
   const nextPageBtn = document.getElementById('next-page');
   const currentPageSpan = document.getElementById('current-page');
@@ -21,7 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const sortBy = sortSelect.value;
     const sortOrder = sortOrderSelect.value;
     const searchQuery = searchInput.value.trim();
-    initCatalogInteractive(sortBy, sortOrder, searchQuery, currentPage, itemsPerPage);
+    const minPrice = minPriceInput.value.trim();
+    initCatalogInteractive(sortBy, sortOrder, searchQuery, minPrice, currentPage, itemsPerPage);
   }
 
   function goToPreviousPage() {
@@ -59,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
   sortSelect.addEventListener('change', updateCatalog);
   sortOrderSelect.addEventListener('change', updateCatalog);
   searchInput.addEventListener('input', updateCatalog);
+  minPriceInput.addEventListener('input', updateCatalog);
   prevPageBtn.addEventListener('click', goToPreviousPage);
   nextPageBtn.addEventListener('click', goToNextPage);
 
@@ -68,12 +71,19 @@ document.addEventListener('DOMContentLoaded', () => {
       totalItems = data.length;
       totalPages = Math.ceil(totalItems / itemsPerPage);
       updatePagination();
-      initCatalogInteractive('name', 'asc', '', currentPage, itemsPerPage);
+      initCatalogInteractive('name', 'asc', '', '', currentPage, itemsPerPage);
     })
     .catch(error => console.error('Error loading JSON:', error));
 });
 
-function initCatalogInteractive(sortBy, sortOrder, searchQuery, currentPage, itemsPerPage) {
+function initCatalogInteractive(
+  sortBy,
+  sortOrder,
+  searchQuery,
+  minPrice,
+  currentPage,
+  itemsPerPage
+) {
   function createListItem(item) {
     const li = document.createElement('li');
     li.classList.add('catalog-list-item');
@@ -91,9 +101,13 @@ function initCatalogInteractive(sortBy, sortOrder, searchQuery, currentPage, ite
       let filteredData = data;
 
       if (searchQuery) {
-        filteredData = data.filter(item =>
+        filteredData = filteredData.filter(item =>
           item.name.toLowerCase().includes(searchQuery.toLowerCase())
         );
+      }
+
+      if (minPrice) {
+        filteredData = filteredData.filter(item => parseFloat(item.price) >= parseFloat(minPrice));
       }
 
       if (sortBy === 'name') {
