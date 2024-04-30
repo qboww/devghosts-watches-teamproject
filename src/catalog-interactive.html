@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg" />
+    <title>WatchCharm</title>
+    <link rel="stylesheet" href="./css/base/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <load src="partials/sections/header.html" />
+    </header>
+
+    <main>
+        <section class="catalog" id="catalog-interactive">
+            <div class="container">
+                <h2 class="catalog-main-title">catalog-interactive</h2>
+                <div class="sort-controls">
+                    <label for="sort-select">Sort by:</label>
+                    <select id="sort-select">
+                        <option value="price">Price</option>
+                        <option value="name">Name</option>
+                    </select>
+                </div>
+                <ul class="catalog-list" id="catalog-list">
+                    <!-- Watch items will be dynamically inserted here -->
+                </ul>
+                <button type="button" class="catalog-btn">Show more</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <load src="partials/sections/footer.html" />
+    </footer>
+
+    <load src="partials/features/arrow.html" />
+    <load src="partials/sections/mob-menu.html" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer type="module" src="./main.js"></script>
+</body>
+
+</html>
