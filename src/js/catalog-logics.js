@@ -1,3 +1,22 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const sortSelect = document.getElementById('sort-select');
+  const sortOrderSelect = document.getElementById('sort-order-select');
+  const searchInput = document.getElementById('search-input');
+
+  function updateCatalog() {
+    const sortBy = sortSelect.value;
+    const sortOrder = sortOrderSelect.value;
+    const searchQuery = searchInput.value.trim();
+    initCatalogInteractive(sortBy, sortOrder, searchQuery);
+  }
+
+  sortSelect.addEventListener('change', updateCatalog);
+  sortOrderSelect.addEventListener('change', updateCatalog);
+  searchInput.addEventListener('input', updateCatalog);
+
+  initCatalogInteractive('name', 'asc', '');
+});
+
 function initCatalogInteractive(sortBy, sortOrder, searchQuery, minPrice) {
   function createListItem(item) {
     const li = document.createElement('li');
@@ -15,7 +34,6 @@ function initCatalogInteractive(sortBy, sortOrder, searchQuery, minPrice) {
     .then(data => {
       let filteredData = data;
 
-      // Filter data based on search query and minimum price
       if (searchQuery) {
         filteredData = data.filter(item =>
           item.name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -25,7 +43,6 @@ function initCatalogInteractive(sortBy, sortOrder, searchQuery, minPrice) {
         filteredData = filteredData.filter(item => parseFloat(item.price) >= minPrice);
       }
 
-      // Sort filtered data based on sortBy and sortOrder criteria
       if (sortBy === 'name') {
         filteredData.sort((a, b) =>
           sortOrder === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name)
@@ -76,6 +93,5 @@ document.addEventListener('DOMContentLoaded', () => {
   searchInput.addEventListener('input', updateCatalog);
   minPriceInput.addEventListener('input', updateCatalog);
 
-  // Initialize with default sorting (by name in ascending order) and no search query
   initCatalogInteractive('name', 'asc', '', 0);
 });
