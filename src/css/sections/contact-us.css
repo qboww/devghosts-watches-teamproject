@@ -1,0 +1,211 @@
+.section-contact {
+  padding: 30px 0px;
+}
+
+.contact-input:active,
+.contact-input:focus {
+  border: 1px solid var(--accent);
+  outline: var(--accent);
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.contact-left-wrapper {
+  background: var(--cards);
+  padding: 48px 28px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.contact-image {
+  border-radius: 50px;
+  width: 100%;
+}
+
+.contact-paragraph {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-header {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: var(--main);
+
+  margin-bottom: 24px;
+}
+
+.contact-input {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--main);
+
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  width: 100%;
+  padding: 12px 14px;
+}
+.contact-button {
+  border-radius: 16px;
+  width: 134px;
+  height: 42px;
+  background: var(--accent);
+  border: none;
+  cursor: pointer;
+  margin-top: 28px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: var(--background);
+}
+
+@media (min-width: 768px) {
+  .section-contact {
+    padding: 40px 0px;
+  }
+
+  .contact-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    color: var(--main);
+    margin-bottom: 40px;
+  }
+
+  .contact-paragraph {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+  }
+
+  .contact-input {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--main);
+    padding: 16px 18px;
+  }
+
+  .contact-left-wrapper {
+    padding: 50px 122px;
+  }
+
+  .contact-button {
+    margin-top: 32px;
+    border-radius: 16px;
+    padding: 17px 63px;
+    width: 160px;
+    height: 52px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section-contact {
+    padding: 50px 0px;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .contact-left-wrapper {
+    background: var(--cards);
+    padding: 50px 60px;
+    border-radius: 50px;
+    height: 556px;
+    width: 580px;
+    margin: 0;
+  }
+  .contact-image {
+    border-radius: 50px;
+    width: 530px;
+    height: 556px;
+  }
+
+  .contact-paragraph {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 32px;
+  }
+
+  .contact-left-wrapper {
+    margin-right: 40px;
+  }
+
+  .contact-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    color: var(--main);
+    margin-bottom: 40px;
+  }
+
+  .contact-input {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--main);
+
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    width: 100%;
+    padding: 16px 18px;
+  }
+  .contact-button {
+    border-radius: 16px;
+    padding: 17px 63px;
+    background: var(--accent);
+    border: none;
+    cursor: pointer;
+    margin-top: 32px;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: var(--background);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .contact-button:hover,
+  .contact-button:focus {
+    background-color: #1f3cd4;
+  }
+}

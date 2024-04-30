@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: 'Gilroy', sans-serif;
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  min-width: 320px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 1279.98px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+}

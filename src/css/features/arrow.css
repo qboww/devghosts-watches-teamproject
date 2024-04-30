@@ -1,0 +1,18 @@
+.arrow-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border: none;
+  background: transparent;
+}
+
+.arrow-image {
+  z-index: 10;
+  cursor: pointer;
+  transition: fill 500ms;
+  fill: var(--main);
+}
+
+.arrow-image:hover {
+  fill: var(--accent);
+}

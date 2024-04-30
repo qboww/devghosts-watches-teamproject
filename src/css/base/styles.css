@@ -1,0 +1,15 @@
+@import url('./fonts/fonts.css');
+@import url('../base/reset.css');
+@import url('../base/globals.css');
+
+@import url('../sections/header.css');
+@import url('../sections/hero.css');
+@import url('../sections/about.css');
+@import url('../sections/advertisement.css');
+@import url('../sections/catalog.css');
+@import url('../sections/sale.css');
+@import url('../sections/reviews.css');
+@import url('../sections/contact-us.css');
+@import url('../sections/footer.css');
+@import url('../sections/mob-menu.css');
+@import url('../features/arrow.css');
