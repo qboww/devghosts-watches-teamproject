@@ -72,8 +72,6 @@ function initCatalogInteractive(sortBy, sortOrder, searchQuery, minPrice) {
     .catch(error => console.error('Error loading JSON:', error));
 }
 
-export default initCatalogInteractive;
-
 document.addEventListener('DOMContentLoaded', () => {
   const sortSelect = document.getElementById('sort-select');
   const sortOrderSelect = document.getElementById('sort-order-select');
