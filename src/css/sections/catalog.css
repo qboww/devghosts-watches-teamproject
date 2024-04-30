@@ -102,12 +102,6 @@ ul.catalog-list li:nth-child(n + 5) {
   background-color: #1f3cd4;
 }
 
-@media screen and (min-width: 768px) {
-  .catalog-btn {
-    display: none;
-  }
-}
-
 .catalog-pic {
   margin: 18px auto 28px;
   display: flex;
