@@ -1,4 +1,4 @@
-function initCatalogInteractive(sortBy) {
+function initCatalogInteractive(sortBy, sortOrder, searchQuery) {
   function createListItem(item) {
     const li = document.createElement('li');
     li.innerHTML = `
@@ -12,18 +12,29 @@ function initCatalogInteractive(sortBy) {
   fetch('../data/watches.json')
     .then(response => response.json())
     .then(data => {
-      // Sort data based on sortBy criteria
+      // Filter data based on search query
+      if (searchQuery) {
+        data = data.filter(item => item.name.toLowerCase().includes(searchQuery.toLowerCase()));
+      }
+
+      // Sort filtered data based on sortBy and sortOrder criteria
       if (sortBy === 'name') {
-        data.sort((a, b) => a.name.localeCompare(b.name));
+        data.sort((a, b) =>
+          sortOrder === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name)
+        );
       } else if (sortBy === 'price') {
-        data.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+        data.sort((a, b) =>
+          sortOrder === 'asc'
+            ? parseFloat(a.price) - parseFloat(b.price)
+            : parseFloat(b.price) - parseFloat(a.price)
+        );
       }
 
       const catalogList = document.getElementById('catalog-list');
       // Clear existing list items
       catalogList.innerHTML = '';
 
-      // Render sorted list items
+      // Render sorted and filtered list items
       data.forEach(item => {
         catalogList.appendChild(createListItem(item));
       });

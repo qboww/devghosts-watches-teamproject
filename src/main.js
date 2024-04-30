@@ -4,15 +4,23 @@ import initCatalogInteractive from './js/catalog-logics';
 
 document.addEventListener('DOMContentLoaded', () => {
   const sortSelect = document.getElementById('sort-select');
-  sortSelect.addEventListener('change', () => {
+  const sortOrderSelect = document.getElementById('sort-order-select');
+  const searchInput = document.getElementById('search-input');
+
+  function updateCatalog() {
     const sortBy = sortSelect.value;
-    initCatalogInteractive(sortBy);
-  });
+    const sortOrder = sortOrderSelect.value;
+    const searchQuery = searchInput.value.trim();
+    initCatalogInteractive(sortBy, sortOrder, searchQuery);
+  }
 
-  // Initialize with default sorting (by name)
-  initCatalogInteractive('name');
+  sortSelect.addEventListener('change', updateCatalog);
+  sortOrderSelect.addEventListener('change', updateCatalog);
+  searchInput.addEventListener('input', updateCatalog);
+
+  // Initialize with default sorting (by name in ascending order) and no search query
+  initCatalogInteractive('name', 'asc', '');
 });
-
 
 AOS.init();
 

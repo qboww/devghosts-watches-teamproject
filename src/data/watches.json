@@ -1,6 +1,6 @@
 [
   {
-    "name": "Garmin Fenix 7X Pro Sapphire Solar",
+    "name": "Fenix 7X Pro Sapphire Solar",
     "image": "./images/catalog/catalog-item1-desc@1x.webp",
     "price": "500",
     "imageDesc": "./images/catalog/catalog-item1-desc@1x.webp",
@@ -8,7 +8,7 @@
     "imageMob": "./images/catalog/catalog-item1-mob@1x.webp"
   },
   {
-    "name": "Garmin Marq Athlete",
+    "name": "Marq Athlete",
     "image": "./images/catalog/catalog-item2-desc@1x.webp",
     "price": "450",
     "imageDesc": "./images/catalog/catalog-item2-desc@1x.webp",
@@ -16,7 +16,7 @@
     "imageMob": "./images/catalog/catalog-item2-mob@1x.webp"
   },
   {
-    "name": "Garmin Descent MK1",
+    "name": "Descent MK1",
     "image": "./images/catalog/catalog-item3-desc@1x.webp",
     "price": "680",
     "imageDesc": "./images/catalog/catalog-item3-desc@1x.webp",
@@ -24,7 +24,7 @@
     "imageMob": "./images/catalog/catalog-item3-mob@1x.webp"
   },
   {
-    "name": "Garmin D2 Delta PX",
+    "name": "D2 Delta PX",
     "image": "./images/catalog/catalog-item4-desc@1x.webp",
     "price": "380",
     "imageDesc": "./images/catalog/catalog-item4-desc@1x.webp",
@@ -32,7 +32,7 @@
     "imageMob": "./images/catalog/catalog-item4-mob@1x.webp"
   },
   {
-    "name": "Garmin Fenix 6 Pro Solar",
+    "name": "Fenix 6 Pro Solar",
     "image": "./images/catalog/catalog-item5-desc@1x.webp",
     "price": "400",
     "imageDesc": "./images/catalog/catalog-item5-desc@1x.webp",
