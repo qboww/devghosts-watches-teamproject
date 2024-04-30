@@ -71,25 +71,3 @@ function initCatalogInteractive(sortBy, sortOrder, searchQuery, minPrice) {
     })
     .catch(error => console.error('Error loading JSON:', error));
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-  const sortSelect = document.getElementById('sort-select');
-  const sortOrderSelect = document.getElementById('sort-order-select');
-  const searchInput = document.getElementById('search-input');
-  const minPriceInput = document.getElementById('min-price-input');
-
-  function updateCatalog() {
-    const sortBy = sortSelect.value;
-    const sortOrder = sortOrderSelect.value;
-    const searchQuery = searchInput.value.trim();
-    const minPrice = parseFloat(minPriceInput.value.trim());
-    initCatalogInteractive(sortBy, sortOrder, searchQuery, minPrice);
-  }
-
-  sortSelect.addEventListener('change', updateCatalog);
-  sortOrderSelect.addEventListener('change', updateCatalog);
-  searchInput.addEventListener('input', updateCatalog);
-  minPriceInput.addEventListener('input', updateCatalog);
-
-  initCatalogInteractive('name', 'asc', '', 0);
-});
