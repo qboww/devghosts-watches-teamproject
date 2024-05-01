@@ -1,32 +1,30 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/devghosts-watches-teamproject/assets/favicon-4bc1398f.svg" />
+    <title>WatchCharm</title>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script type="module" crossorigin src="/devghosts-watches-teamproject/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/devghosts-watches-teamproject/assets/index-d4d3568f.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="/devghosts-watches-teamproject/assets/favicon-4bc1398f.svg" />
-  <title>WatchCharm</title>
-  
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <script type="module" crossorigin src="/devghosts-watches-teamproject/commonHelpers2.js"></script>
-  <link rel="modulepreload" crossorigin href="/devghosts-watches-teamproject/assets/main-9968739f.js">
-  <link rel="stylesheet" href="/devghosts-watches-teamproject/assets/main-3c406d89.css">
-</head>
-
-<body>
-  <header>
-    <div class="header-section">
+  <body>
+    <header>
+      <div class="header-section">
   <div class="nav-container container">
     <nav class="header-nav">
-      <a class="logo" href="./index.html">watchcharm</a>
+      <a class="logo" href="#top">watchcharm</a>
     </nav>
 
     <ul class="header-links-list">
       <li>
-        <a class="nav-link nav-link-studio" href="/index.html">Home</a>
+        <a class="nav-link nav-link-studio" href="#top">Home</a>
       </li>
       <li><a class="nav-link" href="#about">About Us</a></li>
-      <li><a class="nav-link" href="./catalog-interactive.html">Catalog</a></li>
+      <li><a class="nav-link" href="#catalog">Catalog</a></li>
       <li><a class="nav-link" href="#sale">Sale</a></li>
       <li><a class="nav-link" href="#reviews">Reviews</a></li>
       <li><a class="nav-link" href="#contact">Contact Us</a></li>
@@ -79,10 +77,10 @@
   </div>
 </div>
 
-  </header>
+    </header>
 
-  <main>
-    <section class="hero hidden" id="header">
+    <main>
+      <section class="hero hidden" id="header">
   <div class="container">
     <div class="hero-wrap-text">
       <div class="hero-description">
@@ -172,7 +170,7 @@
         <a href="#footer" class="hero-scroll-link">Scroll down</a>
       </div>
     </div>
-    <div class="hero-background">
+    <div class="hero-background" data-aos="fade-right">
       <picture>
         <source
           media="(max-width: 767.98px)"
@@ -198,7 +196,7 @@
   </div>
 </section>
 
-    <section class="about-section" id="about">
+      <section class="about-section" id="about">
   <div class="container">
     <div class="about-container">
       <div class="about-block-text">
@@ -226,7 +224,7 @@
           <a class="about-button" href="#catalog">View catalog</a>
         </div>
       </div>
-      <div class="about-block-image">
+      <div class="about-block-image" data-aos="fade-left">
         <picture>
           <!-- Desktop screen -->
           <source
@@ -257,17 +255,30 @@
   </div>
 </section>
 
-    <section class="catalog" id="catalog">
+      <section class="catalog" id="catalog">
   <div class="container">
     <h2 class="catalog-main-title">Catalog</h2>
     <ul class="catalog-list">
       <li class="catalog-list-item">
         <picture>
-          <source media="(min-width: 1280px)" srcset="/devghosts-watches-teamproject/assets/catalog-item1-desc@1x-ad2d7bfe.webp 1x, /devghosts-watches-teamproject/assets/catalog-item1-desc@2x-0612bc10.webp 2x" />
-          <source media="(min-width: 768px)" srcset="/devghosts-watches-teamproject/assets/catalog-item1-tab@1x-d97c6559.webp 1x, /devghosts-watches-teamproject/assets/catalog-item1-tab@2x-60d623c8.webp 2x" />
-          <source media="(min-width: 320px)" srcset="/devghosts-watches-teamproject/assets/catalog-item1-mob@1x-292d4995.webp 1x, /devghosts-watches-teamproject/assets/catalog-item1-mob@2x-0eb80c5e.webp 2x" />
-          <img class="catalog-pic" src="/devghosts-watches-teamproject/assets/catalog-item1-mob@1x-292d4995.webp"
-            alt="Garmin Fenix 7X Pro Sapphire Solar" loading="lazy" />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item1-desc@1x-ad2d7bfe.webp 1x, /devghosts-watches-teamproject/assets/catalog-item1-desc@2x-0612bc10.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item1-tab@1x-d97c6559.webp 1x, /devghosts-watches-teamproject/assets/catalog-item1-tab@2x-60d623c8.webp 2x"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item1-mob@1x-292d4995.webp 1x, /devghosts-watches-teamproject/assets/catalog-item1-mob@2x-0eb80c5e.webp 2x"
+          />
+          <img
+            class="catalog-pic"
+            src="/devghosts-watches-teamproject/assets/catalog-item1-mob@1x-292d4995.webp"
+            alt="Garmin Fenix 7X Pro Sapphire Solar"
+            loading="lazy"
+          />
         </picture>
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">Garmin Fenix 7X Pro Sapphire Solar</h3>
@@ -276,11 +287,24 @@
       </li>
       <li class="catalog-list-item">
         <picture>
-          <source media="(min-width: 1280px)" srcset="/devghosts-watches-teamproject/assets/catalog-item2-desc@1x-ff99f9ee.webp 1x, /devghosts-watches-teamproject/assets/catalog-item2-desc@2x-bd7ed637.webp 2x" />
-          <source media="(min-width: 768px)" srcset="/devghosts-watches-teamproject/assets/catalog-item2-tab@1x-c86493b4.webp 1x, /devghosts-watches-teamproject/assets/catalog-item2-tab@2x-7a198e30.webp 2x" />
-          <source media="(min-width: 320px)" srcset="/devghosts-watches-teamproject/assets/catalog-item2-mob@1x-c6679401.webp 1x, /devghosts-watches-teamproject/assets/catalog-item2-mob@2x-24672531.webp 2x" />
-          <img class="catalog-pic" src="/devghosts-watches-teamproject/assets/catalog-item2-mob@1x-c6679401.webp" alt="Garmin Marq Athlete "
-            loading="lazy" />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item2-desc@1x-ff99f9ee.webp 1x, /devghosts-watches-teamproject/assets/catalog-item2-desc@2x-bd7ed637.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item2-tab@1x-c86493b4.webp 1x, /devghosts-watches-teamproject/assets/catalog-item2-tab@2x-7a198e30.webp 2x"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item2-mob@1x-c6679401.webp 1x, /devghosts-watches-teamproject/assets/catalog-item2-mob@2x-24672531.webp 2x"
+          />
+          <img
+            class="catalog-pic"
+            src="/devghosts-watches-teamproject/assets/catalog-item2-mob@1x-c6679401.webp"
+            alt="Garmin Marq Athlete "
+            loading="lazy"
+          />
         </picture>
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">Garmin Marq Athlete</h3>
@@ -289,11 +313,24 @@
       </li>
       <li class="catalog-list-item">
         <picture>
-          <source media="(min-width: 1280px)" srcset="/devghosts-watches-teamproject/assets/catalog-item3-desc@1x-91742404.webp 1x, /devghosts-watches-teamproject/assets/catalog-item3-desc@2x-86594498.webp 2x" />
-          <source media="(min-width: 768px)" srcset="/devghosts-watches-teamproject/assets/catalog-item3-tab@1x-41f32257.webp 1x, /devghosts-watches-teamproject/assets/catalog-item3-tab@2x-a6c87a83.webp 2x" />
-          <source media="(min-width: 320px)" srcset="/devghosts-watches-teamproject/assets/catalog-item3-mob@1x-46d42de1.webp 1x, /devghosts-watches-teamproject/assets/catalog-item3-mob@2x-7f9cb702.webp 2x" />
-          <img class="catalog-pic" src="/devghosts-watches-teamproject/assets/catalog-item3-mob@1x-46d42de1.webp" alt="Garmin Descent MK1 "
-            loading="lazy" />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item3-desc@1x-91742404.webp 1x, /devghosts-watches-teamproject/assets/catalog-item3-desc@2x-86594498.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item3-tab@1x-41f32257.webp 1x, /devghosts-watches-teamproject/assets/catalog-item3-tab@2x-a6c87a83.webp 2x"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item3-mob@1x-46d42de1.webp 1x, /devghosts-watches-teamproject/assets/catalog-item3-mob@2x-7f9cb702.webp 2x"
+          />
+          <img
+            class="catalog-pic"
+            src="/devghosts-watches-teamproject/assets/catalog-item3-mob@1x-46d42de1.webp"
+            alt="Garmin Descent MK1 "
+            loading="lazy"
+          />
         </picture>
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">Garmin Descent MK1</h3>
@@ -302,11 +339,24 @@
       </li>
       <li class="catalog-list-item">
         <picture>
-          <source media="(min-width: 1280px)" srcset="/devghosts-watches-teamproject/assets/catalog-item4-desc@1x-316ad9d6.webp 1x, /devghosts-watches-teamproject/assets/catalog-item4-desc@2x-b592f2ee.webp 2x" />
-          <source media="(min-width: 768px)" srcset="/devghosts-watches-teamproject/assets/catalog-item4-tab@1x-f4db6cda.webp 1x, /devghosts-watches-teamproject/assets/catalog-item4-tab@2x-58a38d7e.webp 2x" />
-          <source media="(min-width: 320px)" srcset="/devghosts-watches-teamproject/assets/catalog-item4-mob@1x-14a499cb.webp 1x, /devghosts-watches-teamproject/assets/catalog-item4-mob@2x-a51d24ce.webp 2x" />
-          <img class="catalog-pic" src="/devghosts-watches-teamproject/assets/catalog-item4-mob@1x-14a499cb.webp" alt="Garmin D2 Delta PX"
-            loading="lazy" />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item4-desc@1x-316ad9d6.webp 1x, /devghosts-watches-teamproject/assets/catalog-item4-desc@2x-b592f2ee.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item4-tab@1x-f4db6cda.webp 1x, /devghosts-watches-teamproject/assets/catalog-item4-tab@2x-58a38d7e.webp 2x"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item4-mob@1x-14a499cb.webp 1x, /devghosts-watches-teamproject/assets/catalog-item4-mob@2x-a51d24ce.webp 2x"
+          />
+          <img
+            class="catalog-pic"
+            src="/devghosts-watches-teamproject/assets/catalog-item4-mob@1x-14a499cb.webp"
+            alt="Garmin D2 Delta PX"
+            loading="lazy"
+          />
         </picture>
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">Garmin D2 Delta PX</h3>
@@ -315,11 +365,27 @@
       </li>
       <li class="catalog-list-item">
         <picture>
-          <source media="(min-width: 1280px)" srcset="/devghosts-watches-teamproject/assets/catalog-item5-desc@1x-01e05449.webp 1x, /devghosts-watches-teamproject/assets/catalog-item5-desc@2x-c5a59674.webp 2x" />
-          <source media="(min-width: 768px)" srcset="/devghosts-watches-teamproject/assets/catalog-item5-tab@1x-cd9c23a3.webp 1x, /devghosts-watches-teamproject/assets/catalog-item5-tab@2x-c5113e9b.webp 2x" />
-          <source media="(min-width: 320px)" srcset="/devghosts-watches-teamproject/assets/catalog-item5-tab@1x-cd9c23a3.webp 1x, /devghosts-watches-teamproject/assets/catalog-item5-tab@2x-c5113e9b.webp 2x" />
-          <img class="catalog-pic" src="/devghosts-watches-teamproject/assets/catalog-item5-tab@1x-cd9c23a3.webp" alt="Garmin Fenix 6 Pro Solar"
-            loading="lazy" />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item5-desc@1x-01e05449.webp 1x, /devghosts-watches-teamproject/assets/catalog-item5-desc@2x-c5a59674.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item5-tab@1x-cd9c23a3.webp 1x, /devghosts-watches-teamproject/assets/catalog-item5-tab@2x-c5113e9b.webp 2x"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/catalog/catalog-item5-mob@1x.webp 1x,
+              ./images/catalog/catalog-item5-mob@2x.webp 2x
+            "
+          />
+          <img
+            class="catalog-pic"
+            src="/devghosts-watches-teamproject/assets/catalog-item5-tab@1x-cd9c23a3.webp"
+            alt="Garmin Fenix 6 Pro Solar"
+            loading="lazy"
+          />
         </picture>
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">Garmin Fenix 6 Pro Solar</h3>
@@ -328,11 +394,27 @@
       </li>
       <li class="catalog-list-item">
         <picture>
-          <source media="(min-width: 1280px)" srcset="/devghosts-watches-teamproject/assets/catalog-item6-desc@1x-dab0faca.webp 1x, /devghosts-watches-teamproject/assets/catalog-item6-desc@2x-af10404d.webp 2x" />
-          <source media="(min-width: 768px)" srcset="/devghosts-watches-teamproject/assets/catalog-item6-tab@1x-71b228e1.webp 1x, /devghosts-watches-teamproject/assets/catalog-item6-tab@2x-de8958fc.webp 2x" />
-          <source media="(min-width: 320px)" srcset="/devghosts-watches-teamproject/assets/catalog-item6-tab@1x-71b228e1.webp 1x, /devghosts-watches-teamproject/assets/catalog-item6-tab@2x-de8958fc.webp 2x" />
-          <img class="catalog-pic" src="/devghosts-watches-teamproject/assets/catalog-item6-tab@1x-71b228e1.webp"
-            alt="Tube Watch S42 Date Steel With Black Case" loading="lazy" />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item6-desc@1x-dab0faca.webp 1x, /devghosts-watches-teamproject/assets/catalog-item6-desc@2x-af10404d.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/devghosts-watches-teamproject/assets/catalog-item6-tab@1x-71b228e1.webp 1x, /devghosts-watches-teamproject/assets/catalog-item6-tab@2x-de8958fc.webp 2x"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/catalog/catalog-item6-mob@1x.webp 1x,
+              ./images/catalog/catalog-item6-mob@2x.webp 2x
+            "
+          />
+          <img
+            class="catalog-pic"
+            src="/devghosts-watches-teamproject/assets/catalog-item6-tab@1x-71b228e1.webp"
+            alt="Tube Watch S42 Date Steel With Black Case"
+            loading="lazy"
+          />
         </picture>
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">
@@ -342,10 +424,11 @@
         </div>
       </li>
     </ul>
-    <button type="button" class="catalog-btn" id="show-more">Show more</button>
+    <button type="submit" class="catalog-btn">Show more</button>
   </div>
 </section>
-    <section class="advertisement">
+
+      <section class="advertisement">
   <div class="container">
     <div class="advertisement-box">
       <h2 class="advertisement visually-hidden">Advertisement</h2>
@@ -358,7 +441,7 @@
   </div>
 </section>
 
-    <section class="sale" id="sale">
+      <section class="sale" id="sale">
   <div class="container">
     <h2 class="sale-heading">Sale</h2>
 
@@ -468,7 +551,7 @@
         </div>
       </div>
 
-      <div class="sale-description">
+      <div class="sale-description" data-aos="zoom-in-right">
         <h3 class="sale-description-heading">
           MARQ&#174; Commander (Gen 2) - Carbon Edition
         </h3>
@@ -501,7 +584,7 @@
   </div>
 </section>
 
-    <section class="section-reviews" id="reviews">
+      <section class="section-reviews" id="reviews">
   <div class="container">
     <h2 class="reviews-title">Reviews</h2>
     <ul class="reviews-list">
@@ -570,7 +653,7 @@
   </div>
 </section>
 
-    <section class="section-contact" id="contact">
+      <section class="section-contact" id="contact">
   <div class="container">
     <h2 class="contact-header">Contact Us</h2>
     <div class="contact-wrapper">
@@ -582,17 +665,40 @@
         <form class="contact-left-form">
           <ul class="contact-list">
             <li class="contact-item">
-              <input class="contact-input" name="contact-input" type="text" placeholder="Name" required />
+              <input
+                class="contact-input"
+                name="contact-input"
+                type="text"
+                placeholder="Name"
+                required
+              />
             </li>
             <li class="contact-item">
-              <input class="contact-input" name="contact-input" type="email" placeholder="Email" />
+              <input
+                class="contact-input"
+                name="contact-input"
+                type="email"
+                placeholder="Email"
+              />
             </li>
             <li class="contact-item">
-              <input class="contact-input" name="contact-input" type="tel" placeholder="+380" required />
+              <input
+                class="contact-input"
+                name="contact-input"
+                type="tel"
+                placeholder="+380"
+                required
+              />
             </li>
             <li class="contact-item">
-              <textarea class="contact-input" id="contact-comment" name="contact-comment" rows="3" placeholder="Comment"
-                style="resize: none"></textarea>
+              <textarea
+                class="contact-input"
+                id="contact-comment"
+                name="contact-comment"
+                rows="3"
+                placeholder="Comment"
+                style="resize: none"
+              ></textarea>
             </li>
           </ul>
           <button class="contact-button" type="submit">Send</button>
@@ -601,30 +707,50 @@
       <div class="contact-right-wrapper">
         <picture>
           <!-- Desktop screen -->
-          <source media="(min-width: 1280px)" srcset="/devghosts-watches-teamproject/assets/contact-us-background-desc@1x-33383b5a.jpg 1x, /devghosts-watches-teamproject/assets/contact-us-background-desc@2x-5c6aae9c.jpg 2x" />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/devghosts-watches-teamproject/assets/contact-us-background-desc@1x-33383b5a.jpg 1x, /devghosts-watches-teamproject/assets/contact-us-background-desc@2x-5c6aae9c.jpg 2x"
+          />
           <!-- Tablet screen -->
-          <source media="(min-width: 768px)" srcset="/devghosts-watches-teamproject/assets/contact-us-background-tab@1x-e2db1bac.jpg 1x, /devghosts-watches-teamproject/assets/contact-us-background-tab@2x-6d839c90.jpg 2x" />
+          <source
+            media="(min-width: 768px)"
+            srcset="/devghosts-watches-teamproject/assets/contact-us-background-tab@1x-e2db1bac.jpg 1x, /devghosts-watches-teamproject/assets/contact-us-background-tab@2x-6d839c90.jpg 2x"
+          />
           <!-- Mobile screen -->
-          <source media="(min-width: 320px)" srcset="/devghosts-watches-teamproject/assets/contact-us-background-mob@1x-d7d3d370.jpg 1x, /devghosts-watches-teamproject/assets/contact-us-background-mob@2x-2dab225b.jpg 2x" />
-          <img class="contact-image" src="/devghosts-watches-teamproject/assets/contact-us-background-desc@1x-33383b5a.jpg" alt="watches"
-            loading="lazy" width="335" height="512" />
+          <source
+            media="(min-width: 320px)"
+            srcset="/devghosts-watches-teamproject/assets/contact-us-background-mob@1x-d7d3d370.jpg 1x, /devghosts-watches-teamproject/assets/contact-us-background-mob@2x-2dab225b.jpg 2x"
+          />
+          <img
+            class="contact-image"
+            src="/devghosts-watches-teamproject/assets/contact-us-background-desc@1x-33383b5a.jpg"
+            alt="watches"
+            loading="lazy"
+            width="335"
+            height="512"
+          />
         </picture>
       </div>
     </div>
   </div>
 </section>
-  </main>
 
-  <footer>
-    <div class="container">
+    </main>
+
+    <footer>
+      <div class="container">
   <div class="footer-container" id="footer">
     <div class="container-footer-top">
       <div class="social-logo">
-        <a href="/index.html" class="footer-logo">watchcharm</a>
+        <a href="#top" class="footer-logo">watchcharm</a>
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a class="footer-social-link" href="https://www.facebook.com/goITclub/" target="_blank"
-              aria-label="Facebook link">
+            <a
+              class="footer-social-link"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              aria-label="Facebook link"
+            >
               <svg class="footer-social-icon" width="20" height="20">
                 <use href="/devghosts-watches-teamproject/assets/icons-e9f6a459.svg#icon-footer-facebook"></use>
               </svg>
@@ -632,16 +758,24 @@
           </li>
 
           <li class="footer-social-item">
-            <a class="footer-social-link" href="https://www.instagram.com/goitclub/" target="_blank"
-              aria-label="Instagram link">
+            <a
+              class="footer-social-link"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              aria-label="Instagram link"
+            >
               <svg class="footer-social-icon" width="20" height="20">
                 <use href="/devghosts-watches-teamproject/assets/icons-e9f6a459.svg#icon-footer-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="footer-social-link" href="https://www.youtube.com/c/GoIT" target="_blank"
-              aria-label="Youtube link">
+            <a
+              class="footer-social-link"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              aria-label="Youtube link"
+            >
               <svg class="footer-social-icon" width="20" height="20">
                 <use href="/devghosts-watches-teamproject/assets/icons-e9f6a459.svg#icon-footer-youtube"></use>
               </svg>
@@ -651,7 +785,9 @@
       </div>
       <div class="footer-phone-box">
         <address class="footer-address">
-          <a class="footer-address-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+          <a class="footer-address-link" href="tel:+380684439426"
+            >+380 (68) 443-94-26</a
+          >
         </address>
       </div>
       <div class="footer-title-box">
@@ -665,13 +801,13 @@
       <nav class="footer-nav">
         <ul class="footer-nav-list">
           <li class="footer-nav-item">
-            <a class="footer-nav-link" href="./index.html">Home</a>
+            <a class="footer-nav-link" href="#top">Home</a>
           </li>
           <li class="footer-nav-item">
             <a class="footer-nav-link" href="#about">About us</a>
           </li>
           <li class="footer-nav-item">
-            <a class="footer-nav-link" href="./catalog-interactive.html">Catalog</a>
+            <a class="footer-nav-link" href="#catalog">Catalog</a>
           </li>
           <li class="footer-nav-item">
             <a class="footer-nav-link" href="#sale">Sale</a>
@@ -707,15 +843,16 @@
     </div>
   </div>
 </div>
-  </footer>
 
-  <button class="hide arrow-button" aria-label="Scroll up">
+    </footer>
+
+    <button class="hide arrow-button" aria-label="Scroll up">
   <svg class="arrow-image" width="36" height="36">
     <use href="/devghosts-watches-teamproject/assets/icons-e9f6a459.svg#arrow"></use>
   </svg>
 </button>
 
-  <div class="mob-menu-background">
+    <div class="mob-menu-background">
   <div class="mobile-menu">
     <button class="btn-close-mob-menu" id="close" aria-label="Close menu">
       <svg class="btn-icon">
@@ -725,13 +862,13 @@
     <nav class="mobile-navigation">
       <ul class="mob-menu-list">
         <li class="mob-menu-list-item">
-          <a class="mob-menu-link current" href="./index.html"> Home </a>
+          <a class="mob-menu-link current" href="#top"> Home </a>
         </li>
         <li class="mob-menu-list-item">
           <a class="mob-menu-link" href="#about"> About us </a>
         </li>
         <li class="mob-menu-list-item">
-          <a class="mob-menu-link" href="./catalog-interactive.html"> Catalog </a>
+          <a class="mob-menu-link" href="#catalog"> Catalog </a>
         </li>
         <li class="mob-menu-list-item">
           <a class="mob-menu-link" href="#sale"> Sale </a>
@@ -747,23 +884,36 @@
 
     <ul class="social-services-list">
       <li class="social-services-list-item">
-        <a class="social-services-link" href="https://www.facebook.com/goITclub/" target="_blank"
-          aria-label="Facebook link">
+        <a
+          class="social-services-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          aria-label="Facebook link"
+        >
           <svg class="fb-item" height="18" width="18">
             <use href="/devghosts-watches-teamproject/assets/icons-e9f6a459.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
       <li class="social-services-list-item">
-        <a class="social-services-link" href="https://www.instagram.com/goitclub/" target="_blank"
-          aria-label="Instagram link">
+        <a
+          class="social-services-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          aria-label="Instagram link"
+        >
           <svg class="instagram-item" height="18" width="18">
             <use href="/devghosts-watches-teamproject/assets/icons-e9f6a459.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li class="social-services-list-item">
-        <a class="social-services-link" href="https://www.youtube.com/c/GoIT" target="_blank" aria-label="YouTube link">
+        <a
+          class="social-services-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          aria-label="YouTube link"
+        >
           <svg class="youtube-item" height="18" width="18">
             <use href="/devghosts-watches-teamproject/assets/icons-e9f6a459.svg#icon-youtube"></use>
           </svg>
@@ -773,9 +923,11 @@
   </div>
 </div>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  
-  
-</body>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+  </body>
 </html>
