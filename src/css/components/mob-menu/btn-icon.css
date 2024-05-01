@@ -1,0 +1,17 @@
+.btn-icon {
+  display: block;
+  stroke: #fbfbfb;
+  stroke-width: 3px;
+  height: 18px;
+  width: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-icon {
+    display: block;
+    stroke: #fbfbfb;
+    stroke-width: 3px;
+    height: 20px;
+    width: 20px;
+  }
+}

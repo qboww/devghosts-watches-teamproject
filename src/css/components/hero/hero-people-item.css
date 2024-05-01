@@ -1,0 +1,8 @@
+.hero-people-item {
+  display: flex;
+  align-items: center;
+}
+
+.hero-people-item:not(:first-child) {
+  margin-left: -12px;
+}

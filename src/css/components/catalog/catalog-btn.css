@@ -1,0 +1,23 @@
+.catalog-btn {
+  font-family: var(--font-family);
+  display: block;
+  border-radius: 16px;
+  border: 0;
+  width: 160px;
+  height: 48px;
+  margin: 0 auto;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #fbfbfb;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #1f3cd4;
+}

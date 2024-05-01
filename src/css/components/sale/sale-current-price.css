@@ -1,0 +1,15 @@
+.sale-current-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 32px;
+  border-radius: 8px;
+  width: 68px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: var(--background);
+  background: rgba(251, 251, 251, 0.1);
+}

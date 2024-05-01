@@ -1,0 +1,19 @@
+.footer-container {
+  border-radius: 30px;
+  padding: 40px 28px 28px 28px;
+  background-color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    padding: 40px 40px 28px 40px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-container {
+    padding: 40px 40px 28px 40px;
+    position: relative;
+  }
+}

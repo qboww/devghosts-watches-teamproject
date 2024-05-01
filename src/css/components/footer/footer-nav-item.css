@@ -1,0 +1,19 @@
+.footer-nav-item {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 133%;
+  text-align: center;
+  color: var(--background);
+}
+
+@media screen and (min-width: 768px) {
+  .footer-nav-item {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: var(--background);
+  }
+}

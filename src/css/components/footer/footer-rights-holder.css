@@ -1,0 +1,11 @@
+.footer-rights-holder {
+  padding-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-rights-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

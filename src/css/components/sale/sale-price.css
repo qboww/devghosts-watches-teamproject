@@ -1,0 +1,12 @@
+.sale-price {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 28px;
+}
+
+@media (min-width: 768px) {
+  .sale-price {
+    margin-bottom: 29px;
+  }
+}

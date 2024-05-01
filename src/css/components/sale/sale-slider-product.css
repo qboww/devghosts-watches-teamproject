@@ -1,0 +1,28 @@
+.sale-slider-product {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 335px;
+  height: 385px;
+  background-color: var(--cards);
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+}
+
+@media (min-width: 768px) {
+  .sale-slider-product {
+    padding: 80px 112px;
+    width: 552px;
+    height: 558px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sale-slider-product {
+    padding: 80px 50px;
+    width: 428px;
+    height: 558px;
+  }
+}

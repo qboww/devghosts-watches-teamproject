@@ -1,0 +1,16 @@
+.footer-address-box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 83px;
+  max-height: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-address-box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    max-width: 162px;
+    max-height: 36px;
+  }
+}

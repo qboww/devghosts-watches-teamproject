@@ -1,0 +1,33 @@
+.reviews-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
+}
+
+@media (min-width: 768px) {
+  .reviews-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
+  }
+}
+
+@media (min-width: 1280px) {
+  .reviews-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
+  }
+}

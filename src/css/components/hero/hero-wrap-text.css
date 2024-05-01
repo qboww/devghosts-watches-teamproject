@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+  .hero-wrap-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+}

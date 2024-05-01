@@ -1,0 +1,16 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1280px) {
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: unset;
+    justify-content: unset;
+  }
+}

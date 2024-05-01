@@ -1,0 +1,44 @@
+.contact-input {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--main);
+
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  width: 100%;
+  padding: 12px 14px;
+}
+
+.contact-input:active,
+.contact-input:focus {
+  border: 1px solid var(--accent);
+  outline: var(--accent);
+}
+
+@media (min-width: 768px) {
+  .contact-input {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--main);
+    padding: 16px 18px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contact-input {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--main);
+
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    width: 100%;
+    padding: 16px 18px;
+  }
+}

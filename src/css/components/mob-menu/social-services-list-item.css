@@ -1,0 +1,12 @@
+.social-services-list-item {
+  width: 36px;
+  height: 36px;
+}
+
+.fb-item,
+.instagram-item,
+.youtube-item {
+  fill: #fbfbfb;
+  height: 18px;
+  width: 18px;
+}

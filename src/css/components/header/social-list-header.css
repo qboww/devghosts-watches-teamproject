@@ -1,0 +1,18 @@
+.social-list-header {
+  display: none;
+}
+
+@media (min-width: 1280px) {
+  .social-list-header {
+    display: flex;
+  }
+}
+
+@media (min-width: 1280px) {
+  .social-list-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}

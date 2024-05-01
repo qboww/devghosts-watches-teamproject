@@ -1,0 +1,16 @@
+.hero {
+  padding: 60px 0 30px 0;
+  font-family: var(--font-family);
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 80px 0 40px 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    padding-bottom: 50px;
+  }
+}

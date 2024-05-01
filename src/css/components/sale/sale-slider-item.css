@@ -1,0 +1,19 @@
+.sale-slider-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 14px;
+  width: calc((100% - 3 * 5px) / 4);
+  background-color: var(--cards);
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  height: 80px;
+}
+
+
+@media (min-width: 768px) {
+  .sale-slider-item {
+    width: 132px;
+    height: 132px;
+  }
+}

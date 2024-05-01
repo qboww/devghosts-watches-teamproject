@@ -1,0 +1,18 @@
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .about-list {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about-list {
+    margin-bottom: 40px;
+  }
+}

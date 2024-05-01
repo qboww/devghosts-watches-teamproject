@@ -1,0 +1,13 @@
+.menu-link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+@media (min-width: 1280px) {
+  .menu-link {
+    display: none;
+  }
+}

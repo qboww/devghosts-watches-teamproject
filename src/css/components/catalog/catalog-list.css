@@ -1,0 +1,27 @@
+.catalog-list {
+  display: flex;
+  text-decoration: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+ul.catalog-list li:nth-child(n + 5) {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-list {
+    gap: 29px 16px;
+  }
+
+  ul.catalog-list li:nth-child(n + 5) {
+    display: unset;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog-list {
+    gap: 26px 23px;
+  }
+}

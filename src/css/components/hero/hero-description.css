@@ -1,0 +1,20 @@
+.hero-description {
+  max-width: 335px;
+  margin-bottom: 28px;
+}
+
+@media (min-width: 768px) {
+
+  .hero-description {
+    max-width: 557px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .hero-description {
+    max-width: 597px;
+  }
+
+}

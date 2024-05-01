@@ -1,0 +1,21 @@
+.about-button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: var(--background);
+  cursor: pointer;
+}
+
+.about-button-wrapper {
+  width: 160px;
+  height: 48px;
+  border: none;
+  border-radius: 16px;
+  background: var(--accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

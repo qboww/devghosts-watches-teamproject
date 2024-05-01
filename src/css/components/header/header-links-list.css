@@ -1,0 +1,14 @@
+.header-links-list {
+  display: none;
+}
+
+@media (min-width: 1280px) {
+  .header-links-list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+  }
+}

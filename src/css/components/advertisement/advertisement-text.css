@@ -1,0 +1,23 @@
+.advertisement-text {
+  font-family: var(--font-family);
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement-text {
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advertisement-text {
+    max-width: 1150px;
+  }
+}

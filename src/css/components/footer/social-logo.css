@@ -1,0 +1,16 @@
+.social-logo {
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .social-logo {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .social-logo {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,20 @@
+.about-header {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: var(--main);
+  margin-bottom: 28px;
+}
+
+@media (min-width: 768px) {
+  .about-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    color: var(--main);
+  }
+}

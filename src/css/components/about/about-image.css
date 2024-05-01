@@ -1,0 +1,14 @@
+.about-image {
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+}
+
+@media (min-width: 1280px) {
+  .about-image {
+    border-radius: 50px;
+    width: 530px;
+    height: 532px;
+  }
+}

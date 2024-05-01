@@ -1,0 +1,13 @@
+.current::after {
+  top: 0;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0);
+  width: 8px;
+  height: 8px;
+  border: none;
+  border-radius: 50%;
+  background: #3350e9;
+}

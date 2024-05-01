@@ -1,0 +1,18 @@
+.catalog {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,12 @@
+.sale-slider-list {
+  display: flex;
+  gap: 5px;
+}
+
+@media (min-width: 768px) {
+  .sale-slider-list {
+    flex-direction: column;
+    width: 132px;
+    gap: 10px;
+  }
+}

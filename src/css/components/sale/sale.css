@@ -1,0 +1,15 @@
+.sale {
+  padding: 30px 0;
+}
+
+@media (min-width: 768px) {
+  .sale {
+    padding: 40px 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sale {
+    padding: 50px 0;
+  }
+}

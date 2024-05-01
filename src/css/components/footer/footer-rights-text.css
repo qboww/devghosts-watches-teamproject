@@ -1,0 +1,9 @@
+.footer-rights-text {
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-rights-text {
+    margin-bottom: 0;
+  }
+}

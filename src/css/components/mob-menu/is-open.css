@@ -1,0 +1,7 @@
+.is-open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+  transition-timing-function: ease-in;
+  transition: transform 0.5s;
+}

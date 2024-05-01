@@ -1,0 +1,39 @@
+.reviews-item {
+  border-radius: 30px;
+  padding: 32px 36px;
+  background: var(--cards);
+}
+
+.reviews-item:nth-child(2),
+.reviews-item:nth-child(3) {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .reviews-item:nth-child(3) {
+    display: none;
+  }
+
+  .reviews-item:nth-child(2) {
+    display: flex;
+  }
+
+  .reviews-item {
+    padding: 32px 36px;
+    width: 344px;
+    height: 272px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .reviews-item:nth-child(2),
+  .reviews-item:nth-child(3) {
+    display: flex;
+  }
+
+  .reviews-item {
+    padding: 32px 36px;
+    width: 100%;
+    height: 272px;
+  }
+}

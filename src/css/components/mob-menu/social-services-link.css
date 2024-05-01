@@ -1,0 +1,11 @@
+.social-services-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}

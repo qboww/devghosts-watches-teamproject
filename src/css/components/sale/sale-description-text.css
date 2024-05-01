@@ -1,0 +1,28 @@
+.sale-description-text {
+  margin-bottom: 28px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+}
+
+@media (min-width: 768px) {
+  .sale-description-text {
+    margin-bottom: 41px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sale-description-text {
+    margin-bottom: 41px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+  }
+}

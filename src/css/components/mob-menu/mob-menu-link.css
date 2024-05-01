@@ -1,0 +1,10 @@
+.mob-menu-link {
+  position: relative;
+  padding-bottom: 2px;
+  display: block;
+  color: #fbfbfb;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 129%;
+}

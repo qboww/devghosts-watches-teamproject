@@ -1,0 +1,12 @@
+.contact-image {
+  border-radius: 50px;
+  width: 100%;
+}
+
+@media (min-width: 1280px) {
+  .contact-image {
+    border-radius: 50px;
+    width: 530px;
+    height: 556px;
+  }
+}

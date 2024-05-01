@@ -1,0 +1,8 @@
+.sale-description-caption {
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}

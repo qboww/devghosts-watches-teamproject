@@ -1,0 +1,67 @@
+.advertisement-box {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 28px;
+  background: #0c0c0c;
+  border-radius: 30px;
+  max-width: 335px;
+  height: auto;
+  background-color: rgba(17, 17, 17, 0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+    url('../base/backgrounds/advertisement/advertisement-background-mob@1x.webp');
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement-box {
+    border-radius: 30px;
+    padding: 80px 64px;
+    max-width: 704px;
+    justify-content: center;
+    gap: 32px;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+      url('../base/backgrounds/advertisement/advertisement-background-tab@1x.webp');
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advertisement-box {
+    max-width: 1150px;
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    padding-right: 83px;
+    gap: 140px;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+      url('../base/backgrounds/advertisement/advertisement-background-desc@1x.webp');
+  }
+}
+
+@media (min-resolution: 192dpi) {
+  .advertisement-box {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+      url('../base/backgrounds/advertisement/advertisement-background-mob@2x.webp');
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .advertisement-box {
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+      url('../base/backgrounds/advertisement/advertisement-background-tab@2x.webp');
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .advertisement-box {
+    max-width: 1150px;
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    padding-right: 83px;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+      url('../base/backgrounds/advertisement/advertisement-background-desc@2x.webp');
+  }
+}

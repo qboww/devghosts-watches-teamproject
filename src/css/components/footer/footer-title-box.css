@@ -1,0 +1,30 @@
+.footer-title-box {
+  margin-bottom: 92px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 204px;
+    left: 90px;
+    width: 524px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 340px;
+    width: 523px;
+  }
+}

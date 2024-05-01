@@ -1,0 +1,18 @@
+.catalog-main-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-main-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+  }
+}

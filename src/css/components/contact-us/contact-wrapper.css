@@ -1,0 +1,13 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1280px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}

@@ -1,0 +1,18 @@
+.sale-characteristic-item {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 133%;
+  color: var(--background);
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+@media (min-width: 768px) {
+  .sale-characteristic-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: var(--background);
+  }
+}

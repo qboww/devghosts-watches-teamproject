@@ -1,0 +1,22 @@
+.hero-scroll-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: inherit;
+  transition: color 250ms ease-in;
+}
+
+.hero-scroll-link:hover,
+.hero-scroll-link:active {
+  color: var(--accent);
+}
+
+@media (min-width: 768px) {
+  .hero-scroll-link {
+    font-size: 20px;
+    line-height: 100%;
+  }
+}

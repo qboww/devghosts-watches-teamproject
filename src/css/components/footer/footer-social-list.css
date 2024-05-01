@@ -1,0 +1,11 @@
+.footer-social-list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 35px;
+  width: 122px;
+}
+
+.footer-social-list .footer-social-link:hover,
+.footer-social-list .footer-social-link:focus {
+  opacity: 1;
+}

@@ -1,0 +1,22 @@
+.hero-title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95%;
+  letter-spacing: -0.02em;
+  color: var(--main);
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 70px;
+    line-height: 86%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-title {
+    font-size: 72px;
+    line-height: 87%;
+  }
+}

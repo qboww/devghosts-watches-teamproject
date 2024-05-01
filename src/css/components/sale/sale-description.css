@@ -1,0 +1,23 @@
+.sale-description {
+  max-width: 100%;
+  padding: 48px 28px;
+  width: 335px;
+  border-radius: 30px;
+  background: var(--accent);
+}
+
+@media (min-width: 768px) {
+  .sale-description {
+    width: 704px;
+    height: 518px;
+    padding: 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sale-description {
+    width: 530px;
+    height: 558px;
+    padding: 60px;
+  }
+}

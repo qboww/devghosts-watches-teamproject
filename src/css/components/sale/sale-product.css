@@ -1,0 +1,23 @@
+.sale-product {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .sale-slider {
+    flex-direction: row;
+  }
+
+  .sale-product {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sale-product {
+    flex-direction: row;
+    gap: 40px;
+  }
+}

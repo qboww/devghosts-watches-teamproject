@@ -1,0 +1,24 @@
+.contact-left-wrapper {
+  background: var(--cards);
+  padding: 48px 28px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .contact-left-wrapper {
+    padding: 50px 122px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contact-left-wrapper {
+    background: var(--cards);
+    padding: 50px 60px;
+    border-radius: 50px;
+    height: 556px;
+    width: 580px;
+    margin: 0;
+    margin-right: 40px;
+  }
+}

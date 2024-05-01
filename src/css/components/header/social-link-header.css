@@ -1,0 +1,9 @@
+@media (min-width: 1280px) {
+  .social-link-header {
+    width: 20px;
+    height: 20px;
+
+    fill: var(--main);
+    opacity: 0.8;
+  }
+}

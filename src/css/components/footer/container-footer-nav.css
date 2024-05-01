@@ -1,0 +1,25 @@
+.container-footer-nav {
+  display: flex;
+  justify-content: left;
+  gap: 49px;
+  border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-footer-nav {
+    justify-content: space-between;
+    gap: 62px;
+    margin: 0;
+    padding-bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-footer-nav {
+    justify-content: space-between;
+    gap: 469px;
+    margin: 0;
+    padding-bottom: 18px;
+  }
+}

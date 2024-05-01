@@ -1,0 +1,27 @@
+.catalog-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog-title {
+    width: 304px;
+  }
+}

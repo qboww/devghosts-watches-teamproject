@@ -1,0 +1,16 @@
+.footer-logo {
+  max-width: 90px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  color: #fbfbfb;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-logo {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+.footer-address-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 133%;
+  color: #fbfbfb;
+  text-align: left;
+  margin-bottom: 16px;
+  max-width: 83px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-address-text {
+    font-size: 14px;
+    line-height: 18px;
+    line-height: 129%;
+    max-width: 162px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-address-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fbfbfb;
+    text-align: left;
+  }
+}

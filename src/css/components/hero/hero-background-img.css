@@ -1,0 +1,12 @@
+.hero-background-img {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 768px) {
+  .hero-background-img {
+    width: 100%;
+    height: auto;
+  }
+}

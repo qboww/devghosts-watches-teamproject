@@ -1,0 +1,21 @@
+.hero-inner-block {
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media (min-width: 768px) {
+  .hero-inner-block {
+    max-width: 136px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-inner-block {
+    max-width: 146px;
+  }
+}

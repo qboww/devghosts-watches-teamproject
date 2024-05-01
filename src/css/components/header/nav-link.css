@@ -1,0 +1,11 @@
+@media (min-width: 1280px) {
+  .nav-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: var(--main);
+    position: relative;
+  }
+}

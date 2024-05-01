@@ -1,0 +1,12 @@
+.mob-menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-bottom: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .mob-menu-list {
+    row-gap: 32px;
+  }
+}

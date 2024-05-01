@@ -1,0 +1,9 @@
+.sale-old-price {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}

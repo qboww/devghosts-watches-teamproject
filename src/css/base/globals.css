@@ -11,6 +11,8 @@
   --background: #fbfbfb;
   --cards: #f3f3f3;
   --accent-adv: rgba(251, 251, 251, 0.5);
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -23,6 +25,10 @@ section {
 
 .hide {
   display: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .visually-hidden {

@@ -1,0 +1,19 @@
+.reviews-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .reviews-list {
+    gap: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .reviews-list {
+    justify-content: center;
+    gap: 20px;
+  }
+}
