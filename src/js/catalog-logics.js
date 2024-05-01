@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const currentPageSpan = document.getElementById('current-page');
 
   const homeLink = document.querySelector('.nav-link-studio[href="/index.html"]');
-  const catalogLink = document.querySelector('.nav-link[href="./catalog-interactive.html"]');
+  const catalogLink = document.querySelector('.nav-link[href="/catalog-interactive.html"]');
   homeLink.classList.remove('nav-link-studio');
   catalogLink.classList.add('nav-link-studio');
 
