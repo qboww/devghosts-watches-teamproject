@@ -26,11 +26,7 @@
   height: 100%;
 
   padding: 20px 20px 40px 40px;
-  background-image: linear-gradient(
-      0deg,
-      rgba(12, 12, 12, 0.92) 0%,
-      rgba(12, 12, 12, 0.92) 100%
-    ),
+  background-image: linear-gradient(0deg, rgba(12, 12, 12, 0.92) 0%, rgba(12, 12, 12, 0.92) 100%),
     url(../base/backgrounds/mobile-menu/mobile-menu-background-mob@1x.webp);
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,6 +34,7 @@
   transform: translateX(100%);
   opacity: 0;
 }
+
 .is-open {
   visibility: visible;
   opacity: 1;
@@ -45,6 +42,7 @@
   transition-timing-function: ease-in;
   transition: transform 0.5s;
 }
+
 .btn-close-mob-menu {
   padding: 0;
   border: none;
@@ -70,6 +68,7 @@
   height: 18px;
   width: 18px;
 }
+
 .mobile-navigation {
   display: flex;
   flex-direction: column;
@@ -77,17 +76,20 @@
   margin-bottom: auto;
   position: relative;
 }
+
 .mob-menu-list {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
   margin-bottom: auto;
 }
+
 .mob-menu-list-item {
   display: block;
   margin: auto;
   position: relative;
 }
+
 .mob-menu-link {
   position: relative;
   padding-bottom: 2px;
@@ -112,11 +114,13 @@
   border-radius: 50%;
   background: #3350e9;
 }
+
 .social-services-list {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
+
 .social-services-list-item {
   width: 36px;
   height: 36px;
@@ -133,6 +137,7 @@
   height: 100%;
   width: 100%;
 }
+
 .fb-item,
 .instagram-item,
 .youtube-item {
@@ -140,8 +145,6 @@
   height: 18px;
   width: 18px;
 }
-
-/* #region media */
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
@@ -165,6 +168,7 @@
     height: 40px;
     padding: 0;
   }
+
   .btn-icon {
     display: block;
     stroke: #fbfbfb;
