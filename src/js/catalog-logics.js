@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
   prevPageBtn.addEventListener('click', goToPreviousPage);
   nextPageBtn.addEventListener('click', goToNextPage);
 
-  fetch('../data/watches.json')
+  fetch('./data/watches.json')
     .then(response => response.json())
     .then(data => {
       totalItems = data.length;
@@ -95,7 +95,7 @@ function initCatalogInteractive(
     return li;
   }
 
-  fetch('../data/watches.json')
+  fetch('./data/watches.json')
     .then(response => response.json())
     .then(data => {
       let filteredData = data;
