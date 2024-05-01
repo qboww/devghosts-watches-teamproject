@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const currentPageSpan = document.getElementById('current-page');
 
   const homeLink = document.querySelector('.nav-link-studio[href="/index.html"]');
-  const catalogLink = document.querySelector('.nav-link[href="/catalog-interactive.html"]');
+  const catalogLink = document.querySelector('.nav-link[href="./catalog-interactive.html"]');
   homeLink.classList.remove('nav-link-studio');
   catalogLink.classList.add('nav-link-studio');
 
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
   prevPageBtn.addEventListener('click', goToPreviousPage);
   nextPageBtn.addEventListener('click', goToNextPage);
 
-  fetch('./data/watches.json')
+  fetch('../data/watches.json')
     .then(response => response.json())
     .then(data => {
       totalItems = data.length;
@@ -95,7 +95,7 @@ function initCatalogInteractive(
     return li;
   }
 
-  fetch('./data/watches.json')
+  fetch('../data/watches.json')
     .then(response => response.json())
     .then(data => {
       let filteredData = data;
