@@ -1,7 +1,8 @@
 @import url(../components/about/about-container.css);
 @import url(../components/about/about-header.css);
 @import url(../components/about/about-list.css);
-@import url(../components/about/about-button.css);
+@import url(../components/about/button-btn.css);
+@import url(../components/about/button-wrapper.css);
 @import url(../components/about/about-block-text.css);
 @import url(../components/about/about-section.css);
 @import url(../components/about/about-image.css);

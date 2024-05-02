@@ -1,14 +1,12 @@
-.about-button {
+.button-btn {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
   text-align: center;
   color: var(--background);
+  background: var(--accent);
   cursor: pointer;
-}
-
-.about-button-wrapper {
   width: 160px;
   height: 48px;
   border: none;

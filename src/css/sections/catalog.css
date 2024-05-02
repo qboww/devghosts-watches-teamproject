@@ -2,10 +2,11 @@
 @import url(../components/catalog/catalog-main-title.css);
 @import url(../components/catalog/catalog-list.css);
 @import url(../components/catalog/catalog-list-item.css);
-@import url(../components/catalog/catalog-btn.css);
+
 @import url(../components/catalog/catalog-pic.css);
 @import url(../components/catalog/catalog-title.css);
-
+@import url(../components/about/button-btn.css);
+@import url(../components/about/button-wrapper.css);
 @import url(../components/catalog/no-items-found.css);
 @import url(../components/catalog/sort-controls.css);
 @import url(../components/catalog/sort-controls-wrapper.css);

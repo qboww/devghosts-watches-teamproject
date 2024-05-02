@@ -1,0 +1,13 @@
+.button-about-wrapper {
+  display: flex;
+}
+
+.button-catalog-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.button-cotact-wrapper{
+    margin-top: 20px;
+}
